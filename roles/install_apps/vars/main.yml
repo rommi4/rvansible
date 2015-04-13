@@ -3,12 +3,13 @@
 list_of_packages_to_install:
   - terminator
   - vim
+  - sublime-text
+  - ctags
   - git
+  - tig
+  - gitk
   - subversion
   - vagrant
   - ruby
-  - tig
-  - gitk
-
 list_of_packages_to_uninstall:
   - cowsay

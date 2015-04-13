@@ -1,30 +1,34 @@
 ---
-#- name: create dir for pathogen and vim bundles
-#  file: path=/home/{{ ansible_env.USER }}/.vim/{{ item }} state=directory
-#  with_items:
-#    - autoload
-#    - bundle
-#    - bundle_available
-#
-#- name: install pathogen
-#  shell: curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-#  ignore_errors: yes
-#  register: pathogen_result
-#
-#- name: put update_bundles.rb file
-#  copy: src={{ item }} dest=/home/{{ ansible_env.USER }}/.vim owner={{ ansible_env.USER }} group={{ ansible_env.USER }} mode=0755
-#  with_items:
-#    - update_bundles.rb
-#    - bundle.sh
-#
-#- name: install bundles
-#  shell: /home/{{ ansible_env.USER }}/.vim/{{ item }} chdir=/home/{{ ansible_env.USER }}/.vim/
-#  with_items:
-#    - update_bundles.rb
-#    - bundle.sh
-#
+- name: create dir for pathogen and vim bundles
+  file: path=/home/{{ ansible_env.USER }}/.vim/{{ item }} state=directory
+  with_items:
+    - autoload
+    - bundle
+    - bundle_available
+
+- name: create terminator config dir
+  file: path=/home/{{ ansible_env.USER }}/.config/terminator state=directory
+
+- name: install pathogen
+  shell: curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+  ignore_errors: yes
+  register: pathogen_result
+
+- name: put update_bundles.rb file
+  copy: src={{ item }} dest=/home/{{ ansible_env.USER }}/.vim owner={{ ansible_env.USER }} group={{ ansible_env.USER }} mode=0755
+  with_items:
+    - update_bundles.rb
+    - bundle.sh
+
+- name: install bundles
+  shell: /home/{{ ansible_env.USER }}/.vim/{{ item }} chdir=/home/{{ ansible_env.USER }}/.vim/
+  with_items:
+    - update_bundles.rb
+    - bundle.sh
+
 - name: put .vimrc configs
   copy: src=vimrc dest=/home/{{ ansible_env.USER }}/.vimrc 
   copy: src=terminator_config dest=/home/{{ ansible_env.USER }}/.config/terminator/config
-#- name: put terminator config
-#  copy: src=terminator_config dest=/home/{{ ansible_env.USER }}/.config/terminator/config
+
+- name: put terminator config
+  copy: src=terminator_config dest=/home/{{ ansible_env.USER }}/.config/terminator/config
