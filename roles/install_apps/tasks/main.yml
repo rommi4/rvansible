@@ -1,8 +1,8 @@
 ---
-#- name: Upgrade dist
-#  apt: upgrade=dist update_cache=yes
-#  sudo: yes
-#
+- name: Upgrade dist
+  apt: upgrade=dist update_cache=yes
+  sudo: yes
+
 - name: Install packages
   apt: name={{ list_of_packages_to_install | join(",") }} state=latest
   sudo: yes
