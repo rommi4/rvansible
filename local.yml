@@ -4,29 +4,4 @@
   gather_facts: yes
   roles: 
     - { role: chrome, tags: chrome }  
-  tasks:
-    - name: Upgrade dist
-      apt: upgrade=dist update_cache=yes
-      sudo: yes
-
-    - name: Install packages
-      apt: >
-        name={{ item }} 
-        state=latest
-      with_items: 
-      - terminator
-      - vim
-      - git
-      - vagrant
-      - ruby
-      - tig
-      - gitk
-      sudo: yes
-
-    - name: Uninstall packages 
-      apt: >
-        name={{ item }}
-        state=absent
-      with_items:
-      - cowsay
-      sudo: yes
+    - { role: install_apps, tags: install_packages_from_official_repo }

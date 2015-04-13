@@ -1,0 +1,5 @@
+---
+- name: Check Chrome installed
+  shell: dpkg -s google-chrome-stable 2>/dev/null 
+  ignore_errors: yes
+  register: chrome_result

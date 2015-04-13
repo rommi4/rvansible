@@ -1,0 +1,14 @@
+---
+# vars file for install_apps
+list_of_packages_to_install:
+  - terminator
+  - vim
+  - git
+  - subversion
+  - vagrant
+  - ruby
+  - tig
+  - gitk
+
+list_of_packages_to_uninstall:
+  - cowsay
