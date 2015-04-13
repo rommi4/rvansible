@@ -1,0 +1,12 @@
+---
+- name: create dir for pathogen and vim bundles
+  file: path=/home/{{ ansible_env.USER }}/.vim/{{ item }} state=directory
+  with_items:
+    - autoload
+    - bundle
+    - bundle_available
+
+- name: install pathogen
+  shell: curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+  ignore_errors: yes
+  register: pathogen_result
