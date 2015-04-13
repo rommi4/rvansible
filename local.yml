@@ -19,6 +19,8 @@
       - git
       - vagrant
       - ruby
+      - tig
+      - gitk
       sudo: yes
 
     - name: Uninstall packages 
