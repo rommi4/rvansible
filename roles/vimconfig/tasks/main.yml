@@ -10,3 +10,8 @@
   shell: curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
   ignore_errors: yes
   register: pathogen_result
+
+- name: put update_bundles.rb file
+  copy: src=update_bundles.rb dest=/home/{{ ansible_env.USER }}/.vim owner={{ ansible_env.USER }} group={{ ansible_env.USER }}
+
+

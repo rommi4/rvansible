@@ -10,7 +10,6 @@ git_bundles = [
   "git://github.com/tpope/vim-surround.git",
   "git://github.com/vim-scripts/mru.vim.git",
   "git://github.com/vim-scripts/bufexplorer.zip.git",
-  "git://github.com/mileszs/ack.vim.git",
   "https://github.com/tpope/vim-sensible",
   "https://github.com/c9s/filetype-completion.vim.git",
   "https://github.com/scrooloose/syntastic.git",
