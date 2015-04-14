@@ -6,4 +6,3 @@
     - { role: chrome, tags: chrome }  
     - { role: install_apps, tags: install_packages_from_official_repo }
     - { role: vimconfig, tags: vim }
-    - { role: configapps, tags: configapps }

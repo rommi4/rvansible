@@ -19,7 +19,6 @@ list_of_packages_to_install:
   - ipython3
   # Communication tools
   - skype
-  - wync
   - pidgin
 list_of_packages_to_uninstall:
   - cowsay
