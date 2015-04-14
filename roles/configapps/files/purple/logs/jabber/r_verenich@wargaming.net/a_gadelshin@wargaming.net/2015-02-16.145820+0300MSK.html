@@ -1,0 +1,32 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Conversation with a_gadelshin@wargaming.net at Mon 16 Feb 2015 02:58:20 PM MSK on r_verenich@wargaming.net/ (jabber)</title></head><body><h3>Conversation with a_gadelshin@wargaming.net at Mon 16 Feb 2015 02:58:20 PM MSK on r_verenich@wargaming.net/ (jabber)</h3>
+<font color="#16569E"><font size="2">(02:58:58 PM)</font> <b>Roman Verenich:</b></font>  node 'eu5-wows-localization-db-1.wargaming.net' inherits 'eu5wowslo' {<br/>-    include wg::db::percona<br/>+  include wg::db::percona<br/>+  include wg::profiles::db_xmppcs<br/> }<br/>Could not retrieve catalog from remote server: Error 400 on SERVER: Duplicate declaration: Class[Wg::Db::Mysql_config] is already declared in file /etc/puppet/modules/wg/manifests/db.pp:487; cannot redeclare at /etc/puppet/modules/wg/manifests/db.pp:441 on node eu5-wows-localization-db-1.wargaming.net<br/><br/><br/>+node 'fr2-v-st21-db1.wargaming.net' inherits fr2node {<br/>   include wg::bwdb<br/>+  include wg::profiles::db_xmppcs<br/>+}<br/><br/><br/><br/>
+<font color="#16569E"><font size="2">(02:59:18 PM)</font> <b>Roman Verenich:</b></font> Эка расколбасило<br/>ну эт ладно<br/>
+<font color="#16569E"><font size="2">(03:00:12 PM)</font> <b>Roman Verenich:</b></font> не успел в пятницу протестировать в вагранте совместное использование классов, сегодня надо было на супертестах корабельных подготовить чатики<br/>
+<font color="#16569E"><font size="2">(03:01:14 PM)</font> <b>Roman Verenich:</b></font> Could not retrieve catalog from remote server: Error 400 on SERVER: &quot;&quot; is not an Array. It looks to be a String at /etc/puppet/environments/production/modules/wg/manifests/profiles/db_xmppcs.pp:6 on node fr2-v-st21-db1.wargaming.net<br/>
+<font color="#16569E"><font size="2">(03:30:31 PM)</font> <b>Roman Verenich:</b></font> посмотрел еще с прищуром на другие:<br/>ed/ed-sl-b65.wargaming.net.json-{<br/>ed/ed-sl-b65.wargaming.net.json:  &quot;wg::profiles::db_xmppcs::databases&quot;: [&quot;common&quot;, &quot;router&quot;, &quot;roster&quot;],<br/>ed/ed-sl-b65.wargaming.net.json-  &quot;database::xmppcs::router::id&quot;: [&quot;01&quot;],<br/>ed/ed-sl-b65.wargaming.net.json-  &quot;database::xmppcs::roster::id&quot;: [&quot;01&quot;, &quot;02&quot;],<br/>ed/ed-sl-b65.wargaming.net.json-  &quot;database::xmppcs::realm&quot;: &quot;woteu&quot;<br/>ed/ed-sl-b65.wargaming.net.json-}<br/><br/>может потому что не описал в ноде db?<br/>
+<font color="#A82F2F"><font size="2">(03:32:45 PM)</font> <b>Artur Gadelshin:</b></font> хей<br/>
+<font color="#A82F2F"><font size="2">(03:32:52 PM)</font> <b>Artur Gadelshin:</b></font> а ты хаеру вообще правил?:)<br/>
+<font color="#16569E"><font size="2">(03:33:56 PM)</font> <b>Roman Verenich:</b></font> hieradata/node/fr2/fr2-v-xmppcs-wowsst21-1.wargaming.net.json<br/>{<br/>    &quot;xmppcs::import_cluster_keys&quot;: &quot;wowsst21&quot;<br/>}<br/><br/>
+<font color="#16569E"><font size="2">(03:34:03 PM)</font> <b>Roman Verenich:</b></font> только создавал, и все<br/>
+<font color="#A82F2F"><font size="2">(03:34:21 PM)</font> <b>Artur Gadelshin:</b></font> <html xmlns='http://jabber.org/protocol/xhtml-im'><body xmlns='http://www.w3.org/1999/xhtml'><p><a href="https://confluence.wargaming.net/display/PUB/Setup+XMPPCS+database">https://confluence.wargaming.net/display/PUB/Setup+XMPPCS+database</a></p></body></html><br/>
+<font color="#16569E"><font size="2">(03:37:58 PM)</font> <b>Roman Verenich:</b></font> вот блин, как это пропустил<br/><br/>тогда вопрос по пп3-..  -- ключи так и создавать?<br/>
+<font color="#16569E"><font size="2">(03:38:06 PM)</font> <b>Roman Verenich:</b></font> пароли вернее<br/>
+<font color="#A82F2F"><font size="2">(03:38:12 PM)</font> <b>Artur Gadelshin:</b></font> ну, так и создавай, да<br/>
+<font color="#A82F2F"><font size="2">(03:38:19 PM)</font> <b>Artur Gadelshin:</b></font> можешь ключ по-другому генерить<br/>
+<font color="#A82F2F"><font size="2">(03:38:21 PM)</font> <b>Artur Gadelshin:</b></font> а в целом всё так<br/>
+<font color="#16569E"><font size="2">(03:39:00 PM)</font> <b>Roman Verenich:</b></font> на vm5 у всех доступ есть?<br/>
+<font color="#A82F2F"><font size="2">(03:39:54 PM)</font> <b>Artur Gadelshin:</b></font> да<br/>
+<font color="#A82F2F"><font size="2">(03:39:58 PM)</font> <b>Artur Gadelshin:</b></font> заходи под sa<br/>
+<font color="#16569E"><font size="2">(03:40:38 PM)</font> <b>Roman Verenich:</b></font> а, нет там моего ключа, на локальном паппет-мастере<br/>
+<font color="#16569E"><font size="2">(03:40:44 PM)</font> <b>Roman Verenich:</b></font> $ ssh -A <a href="mailto:sa@by1-dp-vm5">sa@by1-dp-vm5</a> <br/>sa@by1-dp-vm5's password:<br/>
+<font color="#A82F2F"><font size="2">(03:40:49 PM)</font> <b>Artur Gadelshin:</b></font> ;)<br/>
+<font color="#A82F2F"><font size="2">(03:40:53 PM)</font> <b>Artur Gadelshin:</b></font> Юра рядом сидит<br/>
+<font color="#A82F2F"><font size="2">(03:40:56 PM)</font> <b>Artur Gadelshin:</b></font> напротив<br/>
+<font color="#16569E"><font size="2">(03:40:58 PM)</font> <b>Roman Verenich:</b></font> бегает<br/>
+<font color="#A82F2F"><font size="2">(03:40:59 PM)</font> <b>Artur Gadelshin:</b></font> ааа<br/>
+<font color="#A82F2F"><font size="2">(03:41:02 PM)</font> <b>Artur Gadelshin:</b></font> я сам могу положить<br/>
+<font color="#A82F2F"><font size="2">(03:41:02 PM)</font> <b>Artur Gadelshin:</b></font> ща<br/>
+<font color="#A82F2F"><font size="2">(03:42:16 PM)</font> <b>Artur Gadelshin:</b></font> пробуй<br/>
+<font color="#16569E"><font size="2">(03:42:33 PM)</font> <b>Roman Verenich:</b></font> о, гут<br/>спасибо!<br/>
+<font color="#A82F2F"><font size="2">(03:42:38 PM)</font> <b>Artur Gadelshin:</b></font> np<br/>
+</body></html>

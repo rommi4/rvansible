@@ -1,0 +1,8 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Conversation with m_bobakov@wargaming.net at Tue Apr  7 13:11:01 2015 on r_verenich@wargaming.net/ (jabber)</title></head><body><h3>Conversation with m_bobakov@wargaming.net at Tue Apr  7 13:11:01 2015 on r_verenich@wargaming.net/ (jabber)</h3>
+<font color="#16569E"><font size="2">(13:11:04)</font> <b>Roman Verenich:</b></font> In [5]: a = 'dd'<br/><br/>In [6]: b = &quot;d'd&quot;<br/><br/>In [7]: a<br/>Out[7]: 'dd'<br/><br/>In [8]: b<br/>Out[8]: &quot;d'd&quot;<br/><br/>In [9]: repr(a)<br/>Out[9]: &quot;'dd'&quot;<br/><br/>In [10]: repr(b)<br/>Out[10]: '&quot;d\'d&quot;'<br/><br/>
+<font color="#16569E"><font size="2">(13:11:37)</font> <b>Roman Verenich:</b></font> 2.7<br/>
+<font color="#A82F2F"><font size="2">(13:11:50)</font> <b>Mstislav Bobakov:</b></font> беда  в том что мне надо  'dd\'dd'<br/>
+<font color="#16569E"><font size="2">(13:12:07)</font> <b>Roman Verenich:</b></font> интересное поведение какое-то<br/>
+<font color="#16569E"><font size="2">(13:13:00)</font> <b>Roman Verenich:</b></font> In [1]: a = 'dd\'dd'<br/><br/>In [2]: a<br/>Out[2]: &quot;dd'dd&quot;<br/><br/>In [3]: repr(a)<br/>Out[3]: '&quot;dd\'dd&quot;'<br/><br/>
+<font color="#A82F2F"><font size="2">(13:13:16)</font> <b>Mstislav Bobakov:</b></font> &gt;&gt;&gt; 'dd\'dd'<br/>&quot;dd'dd&quot;<br/>&gt;&gt;&gt; 'dddd'<br/>'dddd'<br/>&gt;&gt;&gt;<br/>
+<font color="#A82F2F"><font size="2">(13:15:35)</font> <b>Mstislav Bobakov:</b></font> <br/>в нормальных языках<br/>irb(main):001:0&gt; 'dd'<br/>=&gt; &quot;dd&quot;<br/>irb(main):002:0&gt; 'd\'d'<br/>=&gt; &quot;d'd&quot;<br/><br/>

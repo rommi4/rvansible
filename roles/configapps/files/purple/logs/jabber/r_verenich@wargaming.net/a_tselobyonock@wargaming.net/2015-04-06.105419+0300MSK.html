@@ -1,0 +1,15 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Conversation with a_tselobyonock@wargaming.net at Mon 06 Apr 2015 10:54:19 AM MSK on r_verenich@wargaming.net/ (jabber)</title></head><body><h3>Conversation with a_tselobyonock@wargaming.net at Mon 06 Apr 2015 10:54:19 AM MSK on r_verenich@wargaming.net/ (jabber)</h3>
+<font color="#16569E"><font size="2">(10:58:47 AM)</font> <b>Roman Verenich:</b></font> Александр, привет!<br/>Нужна админская помощь <br/><br/>помоги пожалуйста нашу графану починить (машина не под паппетом пока)<br/>на хосте grafana.wargaming.net (eu5-dp-graphite1) надо подправить конфиг /etc/apache2/sites-enabled/grafana-public-ssl<br/>#    AuthLDAPURL &quot;ldaps://10.150.2.11/OU=WG_Users,DC=corp,DC=wargaming,DC=local?sAMAccountName?sub?(objectClass=*)&quot;<br/>    AuthLDAPURL &quot;ldap://by1-rodc-02.corp.wargaming.local:3268 by1-rodc-01.corp.wargaming.local:3268/?sAMAccountName??(objectClass=user)&quot; STARTTLS<br/>первый раскомментить, второй закомментить<br/><br/>
+<font color="#A82F2F"><font size="2">(11:02:39 AM)</font> <b>Alexandr Tselobyonock:</b></font> привет<br/>
+<font color="#A82F2F"><font size="2">(11:02:42 AM)</font> <b>Alexandr Tselobyonock:</b></font> готово<br/>
+<font color="#A82F2F"><font size="2">(11:02:50 AM)</font> <b>Alexandr Tselobyonock:</b></font> перезапускать надо че ?<br/>
+<font color="#A82F2F"><font size="2">(11:03:18 AM)</font> <b>Alexandr Tselobyonock:</b></font> апач ?<br/>
+<font color="#16569E"><font size="2">(11:03:39 AM)</font> <b>Roman Verenich:</b></font> спасибо<br/>а в хистори есть рестарты?<br/>похоже надо<br/>
+<font color="#A82F2F"><font size="2">(11:03:54 AM)</font> <b>Alexandr Tselobyonock:</b></font> ну да<br/>
+<font color="#A82F2F"><font size="2">(11:04:08 AM)</font> <b>Alexandr Tselobyonock:</b></font> рестартовал <br/>
+<font color="#16569E"><font size="2">(11:04:14 AM)</font> <b>Roman Verenich:</b></font> только плз не отключайся от хоста, возможно не взлетит<br/>
+<font color="#16569E"><font size="2">(11:04:27 AM)</font> <b>Roman Verenich:</b></font> взлетело<br/>
+<font color="#A82F2F"><font size="2">(11:04:33 AM)</font> <b>Alexandr Tselobyonock:</b></font> ;-)<br/>
+<font color="#16569E"><font size="2">(11:05:56 AM)</font> <b>Roman Verenich:</b></font> благодарю !<br/>
+<font color="#A82F2F"><font size="2">(11:06:14 AM)</font> <b>Alexandr Tselobyonock:</b></font> np<br/>
+</body></html>

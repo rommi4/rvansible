@@ -1,0 +1,10 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Conversation with f_kucheryavy@wargaming.net at Mon 26 Jan 2015 03:17:29 PM MSK on r_verenich@wargaming.net/ (jabber)</title></head><body><h3>Conversation with f_kucheryavy@wargaming.net at Mon 26 Jan 2015 03:17:29 PM MSK on r_verenich@wargaming.net/ (jabber)</h3>
+<font color="#16569E"><font size="2">(03:18:28 PM)</font> <b>Roman Verenich:</b></font> Филипп, может подскажешь<br/><a href="https://jira.wargaming.net/browse/WGDP-11309">https://jira.wargaming.net/browse/WGDP-11309</a><br/><span style='color: #333333;'><span style='font-family: Arial, sans-serif;'>&quot;и накатывание на него bwdb c БД логов (backup = true).</span></span>&quot; - это такое?<br/>
+<font color="#16569E"><font size="2">(03:19:05 PM)</font> <b>Roman Verenich:</b></font> это же не <br/>&quot;wg::bwdb::backup&quot;: false, <br/>в описании ноды в hiera?<br/>
+<font color="#A82F2F"><font size="2">(03:19:16 PM)</font> <b>Filipp Kucheryavy:</b></font> угу<br/>
+<font color="#A82F2F"><font size="2">(03:19:52 PM)</font> <b>Filipp Kucheryavy:</b></font> мы ставим true только на реплике<br/>
+<font color="#A82F2F"><font size="2">(03:20:18 PM)</font> <b>Filipp Kucheryavy:</b></font> а так бэкап уже захардкожен у дба в скриптах. базы им нудно будет передать для доделок после того, как засетапишь<br/>
+<font color="#16569E"><font size="2">(03:21:29 PM)</font> <b>Roman Verenich:</b></font> а, ок<br/>тогда получается таск админам на ресетап + мерж ? (мерж - это просто копия в новую ноду описания из hiera)<br/>
+<font color="#A82F2F"><font size="2">(03:21:49 PM)</font> <b>Filipp Kucheryavy:</b></font> yep<br/>
+<font color="#16569E"><font size="2">(03:21:56 PM)</font> <b>Roman Verenich:</b></font> спасибо<br/>
+</body></html>

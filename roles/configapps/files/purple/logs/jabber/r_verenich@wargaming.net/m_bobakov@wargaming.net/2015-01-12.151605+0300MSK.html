@@ -1,0 +1,21 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Conversation with m_bobakov@wargaming.net at Mon 12 Jan 2015 03:16:05 PM MSK on r_verenich@wargaming.net/ (jabber)</title></head><body><h3>Conversation with m_bobakov@wargaming.net at Mon 12 Jan 2015 03:16:05 PM MSK on r_verenich@wargaming.net/ (jabber)</h3>
+<font color="#16569E"><font size="2">(03:16:10 PM)</font> <b>Roman Verenich:</b></font> здарова<br/>
+<font color="#16569E"><font size="2">(03:16:12 PM)</font> <b>Roman Verenich:</b></font> еще раз<br/>
+<font color="#16569E"><font size="2">(03:16:46 PM)</font> <b>Roman Verenich:</b></font> добавляли когда-нибудь дискового пространства на локальный сервак?<br/>
+<font color="#A82F2F"><font size="2">(03:18:01 PM)</font> <b>Mstislav Bobakov:</b></font> да. на каком-то делал resize<br/>
+<font color="#16569E"><font size="2">(03:18:25 PM)</font> <b>Roman Verenich:</b></font> там просто добавляют, а потом на серваке reseize2fs ?<br/>
+<font color="#A82F2F"><font size="2">(03:19:03 PM)</font> <b>Mstislav Bobakov:</b></font> скорее всего, я так точно не помню. Вроде делал еще в LVM ресайз<br/>
+<font color="#16569E"><font size="2">(03:19:16 PM)</font> <b>Roman Verenich:</b></font> vm35<br/>
+<font color="#16569E"><font size="2">(03:19:21 PM)</font> <b>Roman Verenich:</b></font> там похоже нет lvm<br/>
+<font color="#A82F2F"><font size="2">(03:20:05 PM)</font> <b>Mstislav Bobakov:</b></font> а...тогда reseize2fs должно хватить<br/>
+<font color="#16569E"><font size="2">(03:20:35 PM)</font> <b>Roman Verenich:</b></font> угу, только вопрос в том, что не хочет работать<br/>
+<font color="#16569E"><font size="2">(03:20:44 PM)</font> <b>Roman Verenich:</b></font> resize2fs: Filesystem has unsupported feature(s) while trying to open /dev/sdb<br/>Couldn't find valid filesystem superblock.<br/><br/>
+<font color="#A82F2F"><font size="2">(03:22:35 PM)</font> <b>Mstislav Bobakov:</b></font> сейчас гляну<br/>
+<font color="#A82F2F"><font size="2">(03:38:50 PM)</font> <b>Mstislav Bobakov:</b></font> странно там все. Наверно нужно в singlemode по ресайзить.<br/>
+<font color="#A82F2F"><font size="2">(04:07:56 PM)</font> <b>Mstislav Bobakov:</b></font> немного не понял твой коммент. Ресайз уже идет?<br/>
+<font color="#16569E"><font size="2">(04:09:15 PM)</font> <b>Roman Verenich:</b></font> да, уже прошел<br/>
+<font color="#16569E"><font size="2">(04:09:22 PM)</font> <b>Roman Verenich:</b></font> можно закрывать таск<br/>
+<font color="#A82F2F"><font size="2">(04:09:43 PM)</font> <b>Mstislav Bobakov:</b></font> ok. Спасибо за помощь<br/>
+<font color="#16569E"><font size="2">(04:15:44 PM)</font> <b>Roman Verenich:</b></font> да было б за что<br/>админы подсказали как делать, не знал всех нюансов<br/>поумнел хоть :)<br/>
+<font color="#A82F2F"><font size="2">(04:17:41 PM)</font> <b>Mstislav Bobakov:</b></font> да, про 'echo 1 &gt;&gt; ...' я тоже не знал<br/>
+</body></html>

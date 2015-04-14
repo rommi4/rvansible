@@ -10,3 +10,6 @@
 - name: Uninstall packages
   apt: name={{ list_of_packages_to_uninstall | join(",") }} state=absent
   sudo: yes
+
+- name: Install Pycharm
+  file: path=/home/{{ ansible_env.USER }}/PycharmProjects state=directory

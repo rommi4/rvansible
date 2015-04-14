@@ -1,0 +1,1843 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<capabilities>
+	<client node='http://vacuum-im.googlecode.com' ver='nvOfScxvX/KRll5e2pqmMEBIls0=' hash='sha-1'>
+		<identity category='client' type='pc' name='Vacuum-IM'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/commands'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/rosterx'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/xdata-layout'/>
+		<feature var='http://jabber.org/protocol/xdata-validate'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:x:data'/>
+		<feature var='jid\20escaping'/>
+		<feature var='urn:xmpp:bob'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:ssn'/>
+		<feature var='urn:xmpp:time'/>
+	</client>
+	<client node='http://gajim.org' ver='F4WjS9bbuE9NB818++LeiL9H7Lg=' hash='sha-1'>
+		<identity category='client' type='pc' name='Gajim'/>
+		<feature var='http://jabber.org/protocol/activity'/>
+		<feature var='http://jabber.org/protocol/activity+notify'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/commands'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/geoloc+notify'/>
+		<feature var='http://jabber.org/protocol/mood'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/muc#admin'/>
+		<feature var='http://jabber.org/protocol/muc#owner'/>
+		<feature var='http://jabber.org/protocol/muc#roomconfig'/>
+		<feature var='http://jabber.org/protocol/muc#user'/>
+		<feature var='http://jabber.org/protocol/nick'/>
+		<feature var='http://jabber.org/protocol/nick+notify'/>
+		<feature var='http://jabber.org/protocol/rosterx'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/tune+notify'/>
+		<feature var='http://www.xmpp.org/extensions/xep-0116.html#ns'/>
+		<feature var='ipv6'/>
+		<feature var='jabber:iq:gateway'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='jabber:iq:private'/>
+		<feature var='jabber:iq:register'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:x:data'/>
+		<feature var='jabber:x:encrypted'/>
+		<feature var='msglog'/>
+		<feature var='sslc2s'/>
+		<feature var='stringprep'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='urn:xmpp:sec-label:0'/>
+		<feature var='urn:xmpp:ssn'/>
+		<feature var='urn:xmpp:time'/>
+	</client>
+	<client node='http://kopete.kde.org/jabber/caps' ver='1.6.60'>
+		<identity category='client' type='pc' name='Kopete'/>
+		<feature var='urn:xmpp:thumbs:0'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='urn:xmpp:delay'/>
+		<feature var='jabber:x:signed'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:encrypted'/>
+		<feature var='jabber:x:delay'/>
+		<feature var='jabber:x:data'/>
+		<feature var='jabber:x:conference'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/xhtml-im'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/mood'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:bob'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+	</client>
+	<client node='http://telepathy.freedesktop.org/caps' ver='xy2yiKgdt9i0aGuT0PjDmj51rO0=' hash='sha-1'>
+		<identity category='client' type='pc' name='Telepathy Gabble 0.18.3'/>
+		<feature var='http://google.com/xmpp/protocol/share/v1'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/jingle'/>
+		<feature var='http://jabber.org/protocol/jingle/description/audio'/>
+		<feature var='http://jabber.org/protocol/jingle/description/video'/>
+		<feature var='http://jabber.org/protocol/nick'/>
+		<feature var='http://jabber.org/protocol/nick+notify'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://telepathy.freedesktop.org/xmpp/file-transfer-metadata'/>
+		<feature var='http://telepathy.freedesktop.org/xmpp/tubes'/>
+		<feature var='http://telepathy.freedesktop.org/xmpp/tubes/stream#rfb'/>
+		<feature var='http://www.google.com/transport/p2p'/>
+		<feature var='http://www.google.com/xmpp/protocol/camera/v1'/>
+		<feature var='http://www.google.com/xmpp/protocol/session'/>
+		<feature var='http://www.google.com/xmpp/protocol/video/v1'/>
+		<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:audio'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:rtcp-fb:0'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:rtp-hdrext:0'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:video'/>
+		<feature var='urn:xmpp:jingle:transports:ice-udp:1'/>
+		<feature var='urn:xmpp:jingle:transports:raw-udp:1'/>
+		<feature var='urn:xmpp:receipts'/>
+	</client>
+	<client node='http://kopete.kde.org/jabber/caps' ver='1.2.5'>
+		<identity category='client' type='pc' name='Kopete'/>
+		<feature var='http://jabber.org/protocol/xhtml-im'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+	</client>
+	<client node='http://miranda-ng.org/caps' ver='0.95.3.11706'>
+		<identity category='client' type='pc' name='Miranda'/>
+		<feature var='jabber:x:conference'/>
+		<feature var='http://jabber.org/protocol/rosterx'/>
+		<feature var='jabber:iq:private'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='http://miranda-ng.org/caps/mirotr'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:x:oob'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='tune'>
+			<feature var='http://jabber.org/protocol/tune+notify'/>
+		</ext>
+		<ext identifier='mir_notes'>
+			<feature var='http://miranda-ng.org/storage#notes'/>
+		</ext>
+		<ext identifier='mood'>
+			<feature var='http://jabber.org/protocol/mood+notify'/>
+		</ext>
+		<ext identifier='secureim'>
+			<feature var='http://miranda-ng.org/caps/secureim'/>
+		</ext>
+		<ext identifier='activity'>
+			<feature var='http://jabber.org/protocol/activity+notify'/>
+		</ext>
+		<ext identifier='x64'/>
+		<ext identifier='x86'/>
+	</client>
+	<client node='http://gajim.org' ver='Mh6akIO12WR2Lsda8YinHPLEatE=' hash='sha-1'>
+		<identity category='client' type='pc' name='Gajim'/>
+		<feature var='http://jabber.org/protocol/activity'/>
+		<feature var='http://jabber.org/protocol/activity+notify'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/commands'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/geoloc+notify'/>
+		<feature var='http://jabber.org/protocol/mood'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/muc#admin'/>
+		<feature var='http://jabber.org/protocol/muc#owner'/>
+		<feature var='http://jabber.org/protocol/muc#roomconfig'/>
+		<feature var='http://jabber.org/protocol/muc#user'/>
+		<feature var='http://jabber.org/protocol/nick'/>
+		<feature var='http://jabber.org/protocol/nick+notify'/>
+		<feature var='http://jabber.org/protocol/rosterx'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/tune+notify'/>
+		<feature var='http://jabber.org/protocol/xhtml-im'/>
+		<feature var='http://www.xmpp.org/extensions/xep-0116.html#ns'/>
+		<feature var='ipv6'/>
+		<feature var='jabber:iq:gateway'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='jabber:iq:private'/>
+		<feature var='jabber:iq:register'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:x:data'/>
+		<feature var='jabber:x:encrypted'/>
+		<feature var='msglog'/>
+		<feature var='sslc2s'/>
+		<feature var='stringprep'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:audio'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:video'/>
+		<feature var='urn:xmpp:jingle:transports:ice-udp:1'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='urn:xmpp:sec-label:0'/>
+		<feature var='urn:xmpp:ssn'/>
+		<feature var='urn:xmpp:time'/>
+	</client>
+	<client node='http://pidgin.im/' ver='JTczrNsnv8Dx/xugGLdiZzQyz/4=' hash='sha-1'>
+		<identity category='client' type='pc' name='Pidgin'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/muc#user'/>
+		<feature var='http://jabber.org/protocol/nick+notify'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/tune+notify'/>
+		<feature var='http://jabber.org/protocol/xhtml-im'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:x:conference'/>
+		<feature var='urn:xmpp:avatar:metadata+notify'/>
+		<feature var='urn:xmpp:bob'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+	</client>
+	<client node='http://pidgin.im/' ver='w+Bs7Y/4r5zevEnQJ9N4bm1m3QU=' hash='sha-1'>
+		<identity category='client' type='pc' name='Pidgin'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/muc#user'/>
+		<feature var='http://jabber.org/protocol/nick+notify'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/tune+notify'/>
+		<feature var='http://jabber.org/protocol/xhtml-im'/>
+		<feature var='http://www.google.com/xmpp/protocol/camera/v1'/>
+		<feature var='http://www.google.com/xmpp/protocol/session'/>
+		<feature var='http://www.google.com/xmpp/protocol/video/v1'/>
+		<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:x:conference'/>
+		<feature var='urn:xmpp:avatar:metadata+notify'/>
+		<feature var='urn:xmpp:bob'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:audio'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:video'/>
+		<feature var='urn:xmpp:jingle:transports:ice-udp:1'/>
+		<feature var='urn:xmpp:jingle:transports:raw-udp:1'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+	</client>
+	<client node='http://gajim.org' ver='wzGVKj7wSkm4/nTeh6OItUzSeYc=' hash='sha-1'>
+		<identity category='client' type='pc' name='Gajim'/>
+		<feature var='http://jabber.org/protocol/activity'/>
+		<feature var='http://jabber.org/protocol/activity+notify'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/commands'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/geoloc+notify'/>
+		<feature var='http://jabber.org/protocol/mood'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/muc#admin'/>
+		<feature var='http://jabber.org/protocol/muc#owner'/>
+		<feature var='http://jabber.org/protocol/muc#roomconfig'/>
+		<feature var='http://jabber.org/protocol/muc#user'/>
+		<feature var='http://jabber.org/protocol/nick'/>
+		<feature var='http://jabber.org/protocol/nick+notify'/>
+		<feature var='http://jabber.org/protocol/rosterx'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/tune+notify'/>
+		<feature var='http://jabber.org/protocol/xhtml-im'/>
+		<feature var='http://www.xmpp.org/extensions/xep-0116.html#ns'/>
+		<feature var='ipv6'/>
+		<feature var='jabber:iq:gateway'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='jabber:iq:private'/>
+		<feature var='jabber:iq:register'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:x:conference'/>
+		<feature var='jabber:x:data'/>
+		<feature var='jabber:x:encrypted'/>
+		<feature var='msglog'/>
+		<feature var='sslc2s'/>
+		<feature var='stringprep'/>
+		<feature var='urn:xmpp:hash-function-textual-names:md5'/>
+		<feature var='urn:xmpp:hash-function-textual-names:sha-1'/>
+		<feature var='urn:xmpp:hash-function-textual-names:sha-256'/>
+		<feature var='urn:xmpp:hash-function-textual-names:sha-512'/>
+		<feature var='urn:xmpp:hashes:1'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:jingle:apps:file-transfer:3'/>
+		<feature var='urn:xmpp:jingle:security:xtls:0'/>
+		<feature var='urn:xmpp:jingle:transports:ibb:1'/>
+		<feature var='urn:xmpp:jingle:transports:s5b:1'/>
+		<feature var='urn:xmpp:message-correct:0'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='urn:xmpp:sec-label:0'/>
+		<feature var='urn:xmpp:ssn'/>
+		<feature var='urn:xmpp:time'/>
+	</client>
+	<client node='http://qip.ru/caps' ver='9346'>
+		<identity category='client' type='pc' name='QIP 2012'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='voice-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		</ext>
+		<ext identifier='webcam-v1'/>
+	</client>
+	<client node='http://telepathy.freedesktop.org/caps' ver='dz745T54HQ4BoY0CL77dRIBcN4s=' hash='sha-1'>
+		<identity category='client' type='pc' name='Telepathy Gabble 0.18.3'/>
+		<feature var='http://google.com/xmpp/protocol/share/v1'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/jingle'/>
+		<feature var='http://jabber.org/protocol/nick'/>
+		<feature var='http://jabber.org/protocol/nick+notify'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://telepathy.freedesktop.org/xmpp/file-transfer-metadata'/>
+		<feature var='http://telepathy.freedesktop.org/xmpp/tubes'/>
+		<feature var='http://www.google.com/xmpp/protocol/session'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:jingle:transports:raw-udp:1'/>
+		<feature var='urn:xmpp:receipts'/>
+	</client>
+	<client node='http://qip.ru/caps' ver='9380'>
+		<identity category='client' type='pc' name='QIP 2012'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='voice-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		</ext>
+		<ext identifier='webcam-v1'/>
+	</client>
+	<client node='http://qip.ru/caps' ver='9328'>
+		<identity category='client' type='pc' name='QIP 2012'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='voice-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		</ext>
+		<ext identifier='webcam-v1'/>
+	</client>
+	<client node='http://qip.ru/caps' ver='9379'>
+		<identity category='client' type='pc' name='QIP 2012'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='voice-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		</ext>
+		<ext identifier='webcam-v1'/>
+	</client>
+	<client node='http://qip.ru/caps' ver='9040'>
+		<identity category='client' type='pc' name='QIP Infium'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='voice-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		</ext>
+		<ext identifier='webcam-v1'/>
+	</client>
+	<client node='http://trillian.im/caps' ver='5.4.0.16/Windows'>
+		<identity category='client' type='pc' name='Trillian'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://www.google.com/xmpp/protocol/session'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='pmuc-v1'>
+			<feature var='http://jabber.org/protocol/disco#items'/>
+			<feature var='http://jabber.org/protocol/disco#info'/>
+		</ext>
+	</client>
+	<client node='http://telepathy.freedesktop.org/caps' ver='f3LIM6cNl9MFkTGznLccYIUdmy0=' hash='sha-1'>
+		<identity category='client' type='pc' name='Telepathy Gabble 0.18.3'/>
+		<feature var='http://google.com/xmpp/protocol/share/v1'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/jingle'/>
+		<feature var='http://jabber.org/protocol/jingle/description/audio'/>
+		<feature var='http://jabber.org/protocol/jingle/description/video'/>
+		<feature var='http://jabber.org/protocol/nick'/>
+		<feature var='http://jabber.org/protocol/nick+notify'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://telepathy.freedesktop.org/xmpp/file-transfer-metadata'/>
+		<feature var='http://telepathy.freedesktop.org/xmpp/tubes'/>
+		<feature var='http://www.google.com/transport/p2p'/>
+		<feature var='http://www.google.com/xmpp/protocol/camera/v1'/>
+		<feature var='http://www.google.com/xmpp/protocol/session'/>
+		<feature var='http://www.google.com/xmpp/protocol/video/v1'/>
+		<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:audio'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:rtcp-fb:0'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:rtp-hdrext:0'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:video'/>
+		<feature var='urn:xmpp:jingle:transports:ice-udp:1'/>
+		<feature var='urn:xmpp:jingle:transports:raw-udp:1'/>
+		<feature var='urn:xmpp:receipts'/>
+	</client>
+	<client node='http://psi-im.org/caps' ver='caps-b75d8d2b25'>
+		<identity category='client' type='pc' name='Psi'/>
+		<feature var='jabber:x:data'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/rosterx'/>
+		<feature var='http://jabber.org/protocol/commands'/>
+		<feature var='urn:xmpp:bob'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<ext identifier='cs'>
+			<feature var='http://jabber.org/protocol/chatstates'/>
+		</ext>
+		<ext identifier='sxe'>
+			<feature var='http://jabber.org/protocol/sxe'/>
+		</ext>
+		<ext identifier='ep-notify'>
+			<feature var='http://www.xmpp.org/extensions/xep-0084.html#ns-metadata+notify'/>
+			<feature var='http://jabber.org/protocol/geoloc+notify'/>
+			<feature var='http://jabber.org/protocol/physloc+notify'/>
+			<feature var='http://jabber.org/protocol/tune+notify'/>
+			<feature var='http://jabber.org/protocol/mood+notify'/>
+		</ext>
+		<ext identifier='ca'>
+			<feature var='urn:xmpp:jingle:apps:rtp:audio'/>
+			<feature var='urn:xmpp:jingle:apps:rtp:1'/>
+			<feature var='urn:xmpp:jingle:transports:ice-udp:1'/>
+			<feature var='urn:xmpp:jingle:1'/>
+		</ext>
+		<ext identifier='html'>
+			<feature var='http://jabber.org/protocol/xhtml-im'/>
+		</ext>
+		<ext identifier='whiteboard'>
+			<feature var='http://www.w3.org/2000/svg'/>
+		</ext>
+		<ext identifier='ep-notify-2'>
+			<feature var='urn:xmpp:avatar:metadata+notify'/>
+			<feature var='http://jabber.org/protocol/geoloc+notify'/>
+			<feature var='http://jabber.org/protocol/physloc+notify'/>
+			<feature var='http://jabber.org/protocol/tune+notify'/>
+			<feature var='http://jabber.org/protocol/mood+notify'/>
+		</ext>
+	</client>
+	<client node='http://oneteam.im/caps' ver='aAD8sralISpvygy4+1ixFFQfFCo=' hash='sha-1'>
+		<identity category='client' type='pc' name='OneTeam'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/commands'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/rosterx'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/xhtml-im'/>
+		<feature var='http://oneteam.im/remote-debug'/>
+		<feature var='http://process-one.net/threads'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:x:conference'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:audio'/>
+		<feature var='urn:xmpp:jingle:transports:ice-udp:1'/>
+		<feature var='urn:xmpp:jingle:transports:raw-udp:1'/>
+		<feature var='vcard-temp'/>
+	</client>
+	<client node='http://telepathy.freedesktop.org/caps' ver='3atYw+Eas0Iwkx4XSwaGR4EBD9M=' hash='sha-1'>
+		<identity category='client' type='pc' name='Telepathy Gabble 0.18.2'/>
+		<feature var='http://google.com/xmpp/protocol/share/v1'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/jingle'/>
+		<feature var='http://jabber.org/protocol/jingle/description/audio'/>
+		<feature var='http://jabber.org/protocol/jingle/description/video'/>
+		<feature var='http://jabber.org/protocol/nick'/>
+		<feature var='http://jabber.org/protocol/nick+notify'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://telepathy.freedesktop.org/xmpp/file-transfer-metadata'/>
+		<feature var='http://telepathy.freedesktop.org/xmpp/tubes'/>
+		<feature var='http://www.google.com/transport/p2p'/>
+		<feature var='http://www.google.com/xmpp/protocol/camera/v1'/>
+		<feature var='http://www.google.com/xmpp/protocol/session'/>
+		<feature var='http://www.google.com/xmpp/protocol/video/v1'/>
+		<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:audio'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:rtcp-fb:0'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:rtp-hdrext:0'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:video'/>
+		<feature var='urn:xmpp:jingle:transports:ice-udp:1'/>
+		<feature var='urn:xmpp:jingle:transports:raw-udp:1'/>
+		<feature var='urn:xmpp:receipts'/>
+	</client>
+	<client node='http://conversions.siacs.eu' ver='0pZe5k7941U836Mxxhu3ubhtXBg=' hash='sha-1'>
+		<identity category='client' type='phone' name='Conversations 0.10'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:x:conference'/>
+		<feature var='urn:xmpp:avatar:metadata+notify'/>
+		<feature var='urn:xmpp:chat-markers:0'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:jingle:apps:file-transfer:3'/>
+		<feature var='urn:xmpp:jingle:transports:ibb:1'/>
+		<feature var='urn:xmpp:jingle:transports:s5b:1'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:receipts'/>
+	</client>
+	<client node='http://swift.im' ver='rs/tl9NCfXBpKoOYUy+JdBbPGDg=' hash='sha-1'>
+		<identity category='client' type='pc' name='Swift'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='urn:xmpp:message-correct:0'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='urn:xmpp:sec-label:0'/>
+	</client>
+	<client node='http://telepathy.freedesktop.org/caps' ver='CwB7+rX5iWO7aDXoLHx4q8PbIZ4=' hash='sha-1'>
+		<identity category='client' type='pc' name='Telepathy Gabble 0.16.0'/>
+		<feature var='http://google.com/xmpp/protocol/share/v1'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/jingle'/>
+		<feature var='http://jabber.org/protocol/jingle/description/audio'/>
+		<feature var='http://jabber.org/protocol/jingle/description/video'/>
+		<feature var='http://jabber.org/protocol/nick'/>
+		<feature var='http://jabber.org/protocol/nick+notify'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://telepathy.freedesktop.org/xmpp/file-transfer-metadata'/>
+		<feature var='http://telepathy.freedesktop.org/xmpp/tubes'/>
+		<feature var='http://www.google.com/transport/p2p'/>
+		<feature var='http://www.google.com/xmpp/protocol/session'/>
+		<feature var='http://www.google.com/xmpp/protocol/video/v1'/>
+		<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:audio'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:rtcp-fb:0'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:rtp-hdrext:0'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:video'/>
+		<feature var='urn:xmpp:jingle:transports:ice-udp:1'/>
+		<feature var='urn:xmpp:jingle:transports:raw-udp:1'/>
+	</client>
+	<client node='http://miranda-im.org/caps' ver='0.9.40.0'>
+		<identity category='client' type='pc' name='Miranda'/>
+		<feature var='http://jabber.org/protocol/rosterx'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:attention:0'/>
+		<feature var='jabber:iq:private'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:x:oob'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='mood'>
+			<feature var='http://jabber.org/protocol/mood+notify'/>
+		</ext>
+		<ext identifier='mir_notes'>
+			<feature var='http://miranda-im.org/storage#notes'/>
+		</ext>
+		<ext identifier='secureim'>
+			<feature var='http://miranda-im.org/caps/secureim'/>
+		</ext>
+		<ext identifier='activity'>
+			<feature var='http://jabber.org/protocol/activity+notify'/>
+		</ext>
+		<ext identifier='pmuc-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/pmuc/v1'/>
+		</ext>
+	</client>
+	<client node='http://www.igniterealtime.org/projects/smack/' ver='xYEd+1ZdePfGl3AaJ23FB7rizRg=' hash='sha-1'>
+		<identity category='client' type='handheld' name='Xabber'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='sslc2s'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='urn:xmpp:time'/>
+	</client>
+	<client node='https://github.com/robbiehanson/XMPPFramework' ver='aO0i9MaUBkx3mE7HcD49yGarihY=' hash='sha-1'>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='urn:xmpp:receipts'/>
+	</client>
+	<client node='http://miranda-ng.org/caps' ver='0.94.4.4868'>
+		<identity category='client' type='pc' name='Miranda'/>
+		<feature var='http://jabber.org/protocol/rosterx'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:attention:0'/>
+		<feature var='jabber:iq:private'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:x:oob'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='tune'>
+			<feature var='http://jabber.org/protocol/tune+notify'/>
+		</ext>
+		<ext identifier='mir_notes'>
+			<feature var='http://miranda-ng.org/storage#notes'/>
+		</ext>
+		<ext identifier='mood'>
+			<feature var='http://jabber.org/protocol/mood+notify'/>
+		</ext>
+		<ext identifier='secureim'>
+			<feature var='http://miranda-ng.org/caps/secureim'/>
+		</ext>
+		<ext identifier='activity'>
+			<feature var='http://jabber.org/protocol/activity+notify'/>
+		</ext>
+		<ext identifier='x64'/>
+		<ext identifier='x86'/>
+	</client>
+	<client node='http://qip.ru/caps' ver='9373'>
+		<identity category='client' type='pc' name='QIP 2012'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='voice-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		</ext>
+		<ext identifier='webcam-v1'/>
+	</client>
+	<client node='http://pidgin.im/' ver='VUFD6HcFmUT2NxJkBGCiKlZnS3M=' hash='sha-1'>
+		<identity category='client' type='pc' name='Adium'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/commands'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/muc#user'/>
+		<feature var='http://jabber.org/protocol/nick+notify'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/tune+notify'/>
+		<feature var='http://jabber.org/protocol/xhtml-im'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:x:conference'/>
+		<feature var='urn:xmpp:attention:0'/>
+		<feature var='urn:xmpp:avatar:metadata+notify'/>
+		<feature var='urn:xmpp:bob'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+	</client>
+	<client node='http://qip.ru/caps' ver='9354'>
+		<identity category='client' type='pc' name='QIP 2012'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='voice-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		</ext>
+		<ext identifier='webcam-v1'/>
+	</client>
+	<client node='http://qip.ru/caps' ver='7221'>
+		<identity category='client' type='pc' name='QIP 2012'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='voice-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		</ext>
+		<ext identifier='webcam-v1'/>
+	</client>
+	<client node='http://miranda-im.org/caps' ver='0.10.9.0'>
+		<identity category='client' type='pc' name='Miranda'/>
+		<feature var='http://jabber.org/protocol/rosterx'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:attention:0'/>
+		<feature var='jabber:iq:private'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:x:oob'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='mood'>
+			<feature var='http://jabber.org/protocol/mood+notify'/>
+		</ext>
+		<ext identifier='mir_notes'>
+			<feature var='http://miranda-im.org/storage#notes'/>
+		</ext>
+		<ext identifier='secureim'>
+			<feature var='http://miranda-im.org/caps/secureim'/>
+		</ext>
+		<ext identifier='activity'>
+			<feature var='http://jabber.org/protocol/activity+notify'/>
+		</ext>
+		<ext identifier='pmuc-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/pmuc/v1'/>
+		</ext>
+	</client>
+	<client node='http://qip.ru/caps' ver='7058'>
+		<identity category='client' type='pc' name='QIP 2012'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='voice-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		</ext>
+		<ext identifier='webcam-v1'/>
+	</client>
+	<client node='http://oneteam.im/caps' ver='O0YCumXYGZd5CWn38Sb+9dvDZ4M=' hash='sha-1'>
+		<identity category='client' type='pc' name='OneTeam'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/commands'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/rosterx'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/xhtml-im'/>
+		<feature var='http://oneteam.im/remote-debug'/>
+		<feature var='http://process-one.net/threads'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:x:conference'/>
+		<feature var='urn:xmpp:extdisco:0'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:audio'/>
+		<feature var='urn:xmpp:jingle:transports:ice-udp:1'/>
+		<feature var='urn:xmpp:jingle:transports:raw-udp:1'/>
+		<feature var='vcard-temp'/>
+	</client>
+	<client node='http://conversions.siacs.eu' ver='+zvVRDVHUulIf/0vGfDY1AI/x9Y=' hash='sha-1'>
+		<identity category='client' type='phone' name='Conversations 0.8.3'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:x:conference'/>
+		<feature var='urn:xmpp:avatar:metadata+notify'/>
+		<feature var='urn:xmpp:chat-markers:0'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:jingle:apps:file-transfer:3'/>
+		<feature var='urn:xmpp:jingle:transports:ibb:1'/>
+		<feature var='urn:xmpp:jingle:transports:s5b:1'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:receipts'/>
+	</client>
+	<client node='http://miranda-ng.org/caps' ver='0.95.2.9966'>
+		<identity category='client' type='pc' name='Miranda'/>
+		<feature var='jabber:x:conference'/>
+		<feature var='http://jabber.org/protocol/rosterx'/>
+		<feature var='jabber:iq:private'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='http://miranda-ng.org/caps/mirotr'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:x:oob'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='tune'>
+			<feature var='http://jabber.org/protocol/tune+notify'/>
+		</ext>
+		<ext identifier='mir_notes'>
+			<feature var='http://miranda-ng.org/storage#notes'/>
+		</ext>
+		<ext identifier='mood'>
+			<feature var='http://jabber.org/protocol/mood+notify'/>
+		</ext>
+		<ext identifier='secureim'>
+			<feature var='http://miranda-ng.org/caps/secureim'/>
+		</ext>
+		<ext identifier='activity'>
+			<feature var='http://jabber.org/protocol/activity+notify'/>
+		</ext>
+		<ext identifier='x64'/>
+		<ext identifier='x86'/>
+	</client>
+	<client node='http://qutim.org/' ver='nQcSVE0+ICuR8FcI+gRQdnf7glk=' hash='sha-1'>
+		<identity category='client' type='type' name='qutIM' lang='en'/>
+		<feature var='http://jabber.org/protocol/activity'/>
+		<feature var='http://jabber.org/protocol/activity+notify'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/mood'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/muc#admin'/>
+		<feature var='http://jabber.org/protocol/muc#owner'/>
+		<feature var='http://jabber.org/protocol/muc#user'/>
+		<feature var='http://jabber.org/protocol/pubsub'/>
+		<feature var='http://jabber.org/protocol/pubsub#event'/>
+		<feature var='http://jabber.org/protocol/tune'/>
+		<feature var='http://jabber.org/protocol/tune+notify'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='jabber:iq:private'/>
+		<feature var='jabber:iq:roster'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:x:data'/>
+		<feature var='storage:bookmarks'/>
+		<feature var='urn:ietf:params:xml:ns:xmpp-stanzas'/>
+		<feature var='urn:xmpp:delay'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='vcard-temp'/>
+		<feature var='vcard-temp:x:update'/>
+		<x xmlns='jabber:x:data' type='result'>
+			<field type='hidden' var='FORM_TYPE'>
+				<value>urn:xmpp:dataforms:softwareinfo</value>
+			</field>
+			<field var='ip_version'>
+				<value>ipv4</value>
+				<value>ipv6</value>
+			</field>
+			<field var='os'>
+				<value>Debian GNU/Linux 8 (jessie)</value>
+			</field>
+			<field var='software'>
+				<value>qutIM</value>
+			</field>
+			<field var='software_version'>
+				<value>0.3.0.0</value>
+			</field>
+		</x>
+	</client>
+	<client node='http://www.igniterealtime.org/projects/smack/' ver='2SZTp6+uM08fNDqEoW/+dmBqrQ4=' hash='sha-1'>
+		<identity category='client' type='handheld' name='Xabber'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='sslc2s'/>
+		<feature var='urn:xmpp:attention:0'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='urn:xmpp:time'/>
+	</client>
+	<client node='http://psi-dev.googlecode.com/caps' ver='0.16'>
+		<identity category='client' type='pc' name='Psi+'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:x:data'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/rosterx'/>
+		<feature var='http://jabber.org/protocol/commands'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:bob'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<ext identifier='mr'>
+			<feature var='urn:xmpp:receipts'/>
+		</ext>
+		<ext identifier='last-act'>
+			<feature var='jabber:iq:last'/>
+		</ext>
+		<ext identifier='whiteboard'>
+			<feature var='http://www.w3.org/2000/svg'/>
+		</ext>
+		<ext identifier='ep-notify-2'>
+			<feature var='urn:xmpp:avatar:metadata+notify'/>
+			<feature var='http://jabber.org/protocol/geoloc+notify'/>
+			<feature var='http://jabber.org/protocol/tune+notify'/>
+			<feature var='http://jabber.org/protocol/activity+notify'/>
+			<feature var='http://jabber.org/protocol/mood+notify'/>
+		</ext>
+		<ext identifier='cs'>
+			<feature var='http://jabber.org/protocol/chatstates'/>
+		</ext>
+		<ext identifier='sxe'>
+			<feature var='http://jabber.org/protocol/sxe'/>
+		</ext>
+		<ext identifier='cv'>
+			<feature var='urn:xmpp:jingle:apps:rtp:video'/>
+		</ext>
+		<ext identifier='html'>
+			<feature var='http://jabber.org/protocol/xhtml-im'/>
+		</ext>
+		<ext identifier='e-time'>
+			<feature var='urn:xmpp:time'/>
+		</ext>
+		<ext identifier='ca'>
+			<feature var='urn:xmpp:jingle:apps:rtp:audio'/>
+			<feature var='urn:xmpp:jingle:apps:rtp:1'/>
+			<feature var='urn:xmpp:jingle:transports:ice-udp:1'/>
+			<feature var='urn:xmpp:jingle:1'/>
+		</ext>
+	</client>
+	<client node='http://trillian.im/caps' ver='5.5.0.16/Windows'>
+		<identity category='client' type='pc' name='Trillian'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://www.google.com/xmpp/protocol/session'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='pmuc-v1'>
+			<feature var='http://jabber.org/protocol/disco#items'/>
+			<feature var='http://jabber.org/protocol/disco#info'/>
+		</ext>
+	</client>
+	<client node='http://miranda-im.org/caps' ver='0.9.32.0'>
+		<identity category='client' type='pc' name='Miranda'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:attention:0'/>
+		<feature var='jabber:iq:private'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:x:oob'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='mood'>
+			<feature var='http://jabber.org/protocol/mood+notify'/>
+		</ext>
+		<ext identifier='mir_notes'>
+			<feature var='http://miranda-im.org/storage#notes'/>
+		</ext>
+		<ext identifier='secureim'>
+			<feature var='http://miranda-im.org/caps/secureim'/>
+		</ext>
+		<ext identifier='activity'>
+			<feature var='http://jabber.org/protocol/activity+notify'/>
+		</ext>
+		<ext identifier='pmuc-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/pmuc/v1'/>
+		</ext>
+	</client>
+	<client node='http://qip.ru/caps' ver='9338'>
+		<identity category='client' type='pc' name='QIP 2012'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='voice-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		</ext>
+		<ext identifier='webcam-v1'/>
+	</client>
+	<client node='http://pidgin.im/' ver='lV6i//bt2U8Rm0REcX8h4F3Nk3M=' hash='sha-1'>
+		<identity category='client' type='pc' name='Pidgin'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/muc#user'/>
+		<feature var='http://jabber.org/protocol/nick+notify'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/tune+notify'/>
+		<feature var='http://jabber.org/protocol/xhtml-im'/>
+		<feature var='http://www.google.com/xmpp/protocol/camera/v1'/>
+		<feature var='http://www.google.com/xmpp/protocol/session'/>
+		<feature var='http://www.google.com/xmpp/protocol/video/v1'/>
+		<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:x:conference'/>
+		<feature var='urn:xmpp:attention:0'/>
+		<feature var='urn:xmpp:avatar:metadata+notify'/>
+		<feature var='urn:xmpp:bob'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:audio'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:video'/>
+		<feature var='urn:xmpp:jingle:transports:ice-udp:1'/>
+		<feature var='urn:xmpp:jingle:transports:raw-udp:1'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+	</client>
+	<client node='http://miranda-im.org/caps' ver='0.9.30.0'>
+		<identity category='client' type='pc' name='Miranda'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:attention:0'/>
+		<feature var='jabber:iq:private'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:x:oob'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='mood'>
+			<feature var='http://jabber.org/protocol/mood+notify'/>
+		</ext>
+		<ext identifier='mir_notes'>
+			<feature var='http://miranda-im.org/storage#notes'/>
+		</ext>
+		<ext identifier='secureim'>
+			<feature var='http://miranda-im.org/caps/secureim'/>
+		</ext>
+		<ext identifier='activity'>
+			<feature var='http://jabber.org/protocol/activity+notify'/>
+		</ext>
+		<ext identifier='pmuc-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/pmuc/v1'/>
+		</ext>
+	</client>
+	<client node='http://gajim.org' ver='kQwY1HlY3K+SlF/EZEs9sgMuDkM=' hash='sha-1'>
+		<identity category='client' type='pc' name='Gajim'/>
+		<feature var='http://jabber.org/protocol/activity'/>
+		<feature var='http://jabber.org/protocol/activity+notify'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/commands'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/geoloc+notify'/>
+		<feature var='http://jabber.org/protocol/mood'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/muc#admin'/>
+		<feature var='http://jabber.org/protocol/muc#owner'/>
+		<feature var='http://jabber.org/protocol/muc#roomconfig'/>
+		<feature var='http://jabber.org/protocol/muc#user'/>
+		<feature var='http://jabber.org/protocol/nick'/>
+		<feature var='http://jabber.org/protocol/nick+notify'/>
+		<feature var='http://jabber.org/protocol/rosterx'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/tune+notify'/>
+		<feature var='http://www.xmpp.org/extensions/xep-0116.html#ns'/>
+		<feature var='ipv6'/>
+		<feature var='jabber:iq:gateway'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='jabber:iq:private'/>
+		<feature var='jabber:iq:register'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:x:conference'/>
+		<feature var='jabber:x:data'/>
+		<feature var='jabber:x:encrypted'/>
+		<feature var='msglog'/>
+		<feature var='sslc2s'/>
+		<feature var='stringprep'/>
+		<feature var='urn:xmpp:hash-function-textual-names:md5'/>
+		<feature var='urn:xmpp:hash-function-textual-names:sha-1'/>
+		<feature var='urn:xmpp:hash-function-textual-names:sha-256'/>
+		<feature var='urn:xmpp:hash-function-textual-names:sha-512'/>
+		<feature var='urn:xmpp:hashes:1'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:jingle:apps:file-transfer:3'/>
+		<feature var='urn:xmpp:jingle:security:xtls:0'/>
+		<feature var='urn:xmpp:jingle:transports:ibb:1'/>
+		<feature var='urn:xmpp:jingle:transports:s5b:1'/>
+		<feature var='urn:xmpp:message-correct:0'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='urn:xmpp:sec-label:0'/>
+		<feature var='urn:xmpp:ssn'/>
+		<feature var='urn:xmpp:time'/>
+	</client>
+	<client node='http://mcabber.com/caps' ver='LpRr3y+w/XIIA9xtFb+oWORX0YA=' hash='sha-1'>
+		<identity category='client' type='pc' name='mcabber 0.10.2'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/commands'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='jabber:iq:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:x:conference'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='urn:xmpp:time'/>
+	</client>
+	<client node='http://miranda-im.org/caps' ver='0.10.8.0'>
+		<identity category='client' type='pc' name='Miranda'/>
+		<feature var='http://jabber.org/protocol/rosterx'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:attention:0'/>
+		<feature var='jabber:iq:private'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:x:oob'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='mood'>
+			<feature var='http://jabber.org/protocol/mood+notify'/>
+		</ext>
+		<ext identifier='mir_notes'>
+			<feature var='http://miranda-im.org/storage#notes'/>
+		</ext>
+		<ext identifier='secureim'>
+			<feature var='http://miranda-im.org/caps/secureim'/>
+		</ext>
+		<ext identifier='activity'>
+			<feature var='http://jabber.org/protocol/activity+notify'/>
+		</ext>
+		<ext identifier='pmuc-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/pmuc/v1'/>
+		</ext>
+	</client>
+	<client node='http://miranda-im.org/caps' ver='0.10.22.0'>
+		<identity category='client' type='pc' name='Miranda'/>
+		<feature var='http://jabber.org/protocol/rosterx'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:attention:0'/>
+		<feature var='jabber:iq:private'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:x:oob'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='mood'>
+			<feature var='http://jabber.org/protocol/mood+notify'/>
+		</ext>
+		<ext identifier='mir_notes'>
+			<feature var='http://miranda-im.org/storage#notes'/>
+		</ext>
+		<ext identifier='secureim'>
+			<feature var='http://miranda-im.org/caps/secureim'/>
+		</ext>
+		<ext identifier='activity'>
+			<feature var='http://jabber.org/protocol/activity+notify'/>
+		</ext>
+		<ext identifier='pmuc-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/pmuc/v1'/>
+		</ext>
+	</client>
+	<client node='http://conversions.siacs.eu' ver='E6PLbpvIjSd5p+6vGpF2sfxkqDI=' hash='sha-1'>
+		<identity category='client' type='phone' name='Conversations 0.9-alpha'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:x:conference'/>
+		<feature var='urn:xmpp:avatar:metadata+notify'/>
+		<feature var='urn:xmpp:chat-markers:0'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:jingle:apps:file-transfer:3'/>
+		<feature var='urn:xmpp:jingle:transports:ibb:1'/>
+		<feature var='urn:xmpp:jingle:transports:s5b:1'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:receipts'/>
+	</client>
+	<client node='http://qip.ru/caps' ver='8921'>
+		<identity category='client' type='pc' name='QIP 2012'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='voice-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		</ext>
+		<ext identifier='webcam-v1'/>
+	</client>
+	<client node='http://gajim.org' ver='47EPEmSc9oqPGwcrbNtpKcYyJcE=' hash='sha-1'>
+		<identity category='client' type='pc' name='Gajim'/>
+		<feature var='http://jabber.org/protocol/activity'/>
+		<feature var='http://jabber.org/protocol/activity+notify'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/commands'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/geoloc+notify'/>
+		<feature var='http://jabber.org/protocol/mood'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/muc#admin'/>
+		<feature var='http://jabber.org/protocol/muc#owner'/>
+		<feature var='http://jabber.org/protocol/muc#roomconfig'/>
+		<feature var='http://jabber.org/protocol/muc#user'/>
+		<feature var='http://jabber.org/protocol/nick'/>
+		<feature var='http://jabber.org/protocol/nick+notify'/>
+		<feature var='http://jabber.org/protocol/rosterx'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/tune+notify'/>
+		<feature var='http://jabber.org/protocol/xhtml-im'/>
+		<feature var='http://www.xmpp.org/extensions/xep-0116.html#ns'/>
+		<feature var='ipv6'/>
+		<feature var='jabber:iq:gateway'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='jabber:iq:private'/>
+		<feature var='jabber:iq:register'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:x:data'/>
+		<feature var='jabber:x:encrypted'/>
+		<feature var='msglog'/>
+		<feature var='sslc2s'/>
+		<feature var='stringprep'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='urn:xmpp:sec-label:0'/>
+		<feature var='urn:xmpp:ssn'/>
+		<feature var='urn:xmpp:time'/>
+	</client>
+	<client node='http://www.igniterealtime.org/projects/smack/' ver='xnt7aGOMeouyEY99CHzFENDym7k=' hash='sha-1'>
+		<identity category='client' type='handheld' name='Xabber VIP'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='sslc2s'/>
+		<feature var='urn:xmpp:attention:0'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='urn:xmpp:time'/>
+	</client>
+	<client node='http://qip.ru/caps' ver='9377'>
+		<identity category='client' type='pc' name='QIP 2012'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='voice-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		</ext>
+		<ext identifier='webcam-v1'/>
+	</client>
+	<client node='http://pidgin.im/' ver='71LAP/wlWGfun7j+Q4FCSSuAhQw=' hash='sha-1'>
+		<identity category='client' type='pc' name='Pidgin'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/muc#user'/>
+		<feature var='http://jabber.org/protocol/nick+notify'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/tune+notify'/>
+		<feature var='http://jabber.org/protocol/xhtml-im'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:x:conference'/>
+		<feature var='urn:xmpp:attention:0'/>
+		<feature var='urn:xmpp:avatar:metadata+notify'/>
+		<feature var='urn:xmpp:bob'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+	</client>
+	<client node='http://pidgin.im/' ver='E3dqWktjXWQyzx7OxofOJ5cmX/g=' hash='sha-1'>
+		<identity category='client' type='console' name='Finch'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/muc#user'/>
+		<feature var='http://jabber.org/protocol/nick+notify'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/tune+notify'/>
+		<feature var='http://jabber.org/protocol/xhtml-im'/>
+		<feature var='http://www.google.com/xmpp/protocol/session'/>
+		<feature var='http://www.google.com/xmpp/protocol/voice/v1'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:x:conference'/>
+		<feature var='urn:xmpp:attention:0'/>
+		<feature var='urn:xmpp:avatar:metadata+notify'/>
+		<feature var='urn:xmpp:bob'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:1'/>
+		<feature var='urn:xmpp:jingle:apps:rtp:audio'/>
+		<feature var='urn:xmpp:jingle:transports:ice-udp:1'/>
+		<feature var='urn:xmpp:jingle:transports:raw-udp:1'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+	</client>
+	<client node='http://www.apple.com/ichat/caps' ver='1000'>
+		<identity category='client' type='pc' name='imagent'/>
+		<feature var='http://www.apple.com/xmpp/message-attachments'/>
+		<feature var='apple:profile:transfer-extensions:rsrcfork'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='apple:profile:efh-transfer'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/sipub'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='vcard-temp:x:update'/>
+		<feature var='http://jabber.org/protocol/xhtml-im'/>
+		<ext identifier='avavail'>
+			<feature var='apple:iq:vc:available'/>
+		</ext>
+		<ext identifier='rdserver'>
+			<feature var='apple:iq:rd:server'/>
+		</ext>
+		<ext identifier='video'>
+			<feature var='apple:iq:vc:video'/>
+		</ext>
+		<ext identifier='maudio'>
+			<feature var='apple:iq:vc:multiaudio'/>
+		</ext>
+		<ext identifier='rdmuxing'>
+			<feature var='apple:iq:rd:muxing'/>
+		</ext>
+		<ext identifier='rdclient'>
+			<feature var='apple:iq:rd:client'/>
+		</ext>
+		<ext identifier='avcap'>
+			<feature var='apple:iq:vc:capable'/>
+		</ext>
+		<ext identifier='mvideo'>
+			<feature var='apple:iq:vc:multivideo'/>
+		</ext>
+		<ext identifier='audio'>
+			<feature var='apple:iq:vc:audio'/>
+		</ext>
+		<ext identifier='ice'>
+			<feature var='apple:iq:vc:ice'/>
+		</ext>
+	</client>
+	<client node='http://miranda-im.org/caps' ver='0.9.52.0'>
+		<identity category='client' type='pc' name='Miranda'/>
+		<feature var='http://jabber.org/protocol/rosterx'/>
+		<feature var='urn:xmpp:jingle:1'/>
+		<feature var='urn:xmpp:attention:0'/>
+		<feature var='jabber:iq:private'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='jabber:iq:browse'/>
+		<feature var='jabber:iq:agents'/>
+		<feature var='vcard-temp'/>
+		<feature var='jabber:x:event'/>
+		<feature var='jabber:x:data'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:iq:last'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='jabber:x:oob'/>
+		<feature var='jabber:iq:oob'/>
+		<feature var='http://jabber.org/protocol/ibb'/>
+		<feature var='http://jabber.org/protocol/bytestreams'/>
+		<feature var='http://jabber.org/protocol/si/profile/file-transfer'/>
+		<feature var='http://jabber.org/protocol/si'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<ext identifier='mood'>
+			<feature var='http://jabber.org/protocol/mood+notify'/>
+		</ext>
+		<ext identifier='mir_notes'>
+			<feature var='http://miranda-im.org/storage#notes'/>
+		</ext>
+		<ext identifier='secureim'>
+			<feature var='http://miranda-im.org/caps/secureim'/>
+		</ext>
+		<ext identifier='activity'>
+			<feature var='http://jabber.org/protocol/activity+notify'/>
+		</ext>
+		<ext identifier='pmuc-v1'>
+			<feature var='http://www.google.com/xmpp/protocol/pmuc/v1'/>
+		</ext>
+	</client>
+	<client node='http://qutim.org/' ver='6UVnSEZN2mrEf2G9hwh0wVHZJrw=' hash='sha-1'>
+		<identity category='client' type='type' name='qutIM' lang='en'/>
+		<feature var='http://jabber.org/protocol/activity'/>
+		<feature var='http://jabber.org/protocol/activity+notify'/>
+		<feature var='http://jabber.org/protocol/caps'/>
+		<feature var='http://jabber.org/protocol/chatstates'/>
+		<feature var='http://jabber.org/protocol/disco#info'/>
+		<feature var='http://jabber.org/protocol/disco#items'/>
+		<feature var='http://jabber.org/protocol/mood'/>
+		<feature var='http://jabber.org/protocol/mood+notify'/>
+		<feature var='http://jabber.org/protocol/muc'/>
+		<feature var='http://jabber.org/protocol/muc#admin'/>
+		<feature var='http://jabber.org/protocol/muc#owner'/>
+		<feature var='http://jabber.org/protocol/muc#user'/>
+		<feature var='http://jabber.org/protocol/pubsub'/>
+		<feature var='http://jabber.org/protocol/pubsub#event'/>
+		<feature var='http://jabber.org/protocol/tune'/>
+		<feature var='http://jabber.org/protocol/tune+notify'/>
+		<feature var='jabber:iq:privacy'/>
+		<feature var='jabber:iq:private'/>
+		<feature var='jabber:iq:roster'/>
+		<feature var='jabber:iq:version'/>
+		<feature var='jabber:x:data'/>
+		<feature var='storage:bookmarks'/>
+		<feature var='urn:ietf:params:xml:ns:xmpp-stanzas'/>
+		<feature var='urn:xmpp:delay'/>
+		<feature var='urn:xmpp:ping'/>
+		<feature var='urn:xmpp:receipts'/>
+		<feature var='urn:xmpp:time'/>
+		<feature var='vcard-temp'/>
+		<feature var='vcard-temp:x:update'/>
+		<x xmlns='jabber:x:data' type='result'>
+			<field type='hidden' var='FORM_TYPE'>
+				<value>urn:xmpp:dataforms:softwareinfo</value>
+			</field>
+			<field var='ip_version'>
+				<value>ipv4</value>
+				<value>ipv6</value>
+			</field>
+			<field var='os'>
+				<value>Debian GNU/Linux jessie/sid</value>
+			</field>
+			<field var='software'>
+				<value>qutIM</value>
+			</field>
+			<field var='software_version'>
+				<value>0.3.0.0</value>
+			</field>
+		</x>
+	</client>
+</capabilities>

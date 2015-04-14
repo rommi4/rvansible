@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<statuses version='1.0'>
+	<status name='Auto-Cached' transient='true' created='1421331429' lastused='1421331429' usage_count='1'>
+		<state>away</state>
+		<substatus>
+			<account protocol='prpl-jabber'>r_verenich@wargaming.net</account>
+			<state>away</state>
+		</substatus>
+	</status>
+	<status name='Auto-Cached' transient='true' created='1415742865' lastused='0' usage_count='0'>
+		<state>available</state>
+	</status>
+	<status name='Auto-Cached' transient='true' created='1415798226' lastused='0' usage_count='0'>
+		<state>away</state>
+		<message>I&apos;m not here right now</message>
+	</status>
+</statuses>

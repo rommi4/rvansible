@@ -1,0 +1,27 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Conversation with m_bobakov@wargaming.net at Аўт 18 Ліс 2014 11:15:08 on r_verenich@wargaming.net/ (jabber)</title></head><body><h3>Conversation with m_bobakov@wargaming.net at Аўт 18 Ліс 2014 11:15:08 on r_verenich@wargaming.net/ (jabber)</h3>
+<font color="#A82F2F"><font size="2">(11:15:08)</font> <b>Mstislav Bobakov:</b></font> привет. Подскажи плиз, можно ли переносить данные из БД из одного кластера в другой?<br/>
+<font color="#16569E"><font size="2">(11:15:55)</font> <b>Roman Verenich:</b></font> привет, если они нужны, то можно и перенести<br/>
+<font color="#16569E"><font size="2">(11:16:02)</font> <b>Roman Verenich:</b></font> а что именно переносишь и как?<br/>
+<font color="#A82F2F"><font size="2">(11:16:59)</font> <b>Mstislav Bobakov:</b></font> <html xmlns='http://jabber.org/protocol/xhtml-im'><body xmlns='http://www.w3.org/1999/xhtml'><p>Я по заявке <a href="https://jira.wargaming.net/browse/WGDP-9587">https://jira.wargaming.net/browse/WGDP-9587</a></p></body></html><br/>
+<font color="#A82F2F"><font size="2">(11:19:36)</font> <b>Mstislav Bobakov:</b></font> <html xmlns='http://jabber.org/protocol/xhtml-im'><body xmlns='http://www.w3.org/1999/xhtml'><p>там внизу коммент последний. Но есть одно но. Сейчас кластер с которого они хотят данные - работает. Я думал просто склонировать схемы кластера <span style='color: #333333;'><span style='font-family: Arial, sans-serif;'>SHADOW</span></span> , удалить схемы текущего кластера,переименовать скопированые схемы в текущие и запустить кластер-апдейт, чтобы отработал liquebase</p></body></html><br/>
+<font color="#A82F2F"><font size="2">(15:03:22)</font> <b>Mstislav Bobakov:</b></font> Ты понимаешь о чем спрашивают? в confluencе ничего внятного не нашел что-то<br/>03:01:00 PM) Aliaksandr Razuvalau: еще раз хочу тебя побеспокоить<br/>что такое WI и БЯ?<br/>
+<font color="#16569E"><font size="2">(15:04:07)</font> <b>Roman Verenich:</b></font> БЯ - backyard<br/>
+<font color="#16569E"><font size="2">(15:04:24)</font> <b>Roman Verenich:</b></font> wi - ничего, кроме web interface не приходит на ум<br/>
+<font color="#A82F2F"><font size="2">(15:05:29)</font> <b>Mstislav Bobakov:</b></font> аа..А Backyard какой-нибудь можно подключить к локальному кластеру? Нужно подкрутить опыта в кораблях<br/>
+<font color="#16569E"><font size="2">(15:07:17)</font> <b>Roman Verenich:</b></font> а, WI - web integration<br/>
+<font color="#16569E"><font size="2">(15:07:27)</font> <b>Roman Verenich:</b></font> <a href="https://confluence.wargaming.net/download/attachments/126452540/Backyard_interaction_scheme.png?version=31&amp;modificationDate=1415176366000&amp;api=v2">https://confluence.wargaming.net/download/attachments/126452540/Backyard_interaction_scheme.png?version=31&amp;modificationDate=1415176366000&amp;api=v2</a><br/>
+<font color="#A82F2F"><font size="2">(15:11:57)</font> <b>Mstislav Bobakov:</b></font> а...да,да. Слышал про такой, только вот как этим всем чудом воспользоваться не знаю ( Я так понял его заказывать как-то надо. Или может можно без него обойтись и через базу накрутить опыта<br/>
+<font color="#A82F2F"><font size="2">(15:11:59)</font> <b>Mstislav Bobakov:</b></font> ?<br/>
+<font color="#16569E"><font size="2">(15:14:54)</font> <b>Roman Verenich:</b></font> наверное лучше к WDO, я не крутил через базу. если получится - расскажи <br/>там все через очереди в MQ гоняется кажись<br/>
+<font color="#16569E"><font size="2">(15:15:19)</font> <b>Roman Verenich:</b></font> а, знаешь же как посмотреть  очередь через веб-интерфейс?<br/>
+<font color="#A82F2F"><font size="2">(15:17:32)</font> <b>Mstislav Bobakov:</b></font> ну да<br/>
+<font color="#A82F2F"><font size="2">(15:21:51)</font> <b>Mstislav Bobakov:</b></font> в базе оно в pdata хранится в бинарном виде и никак там не поправить, только через бэкярд<br/>
+<font color="#16569E"><font size="2">(15:23:30)</font> <b>Roman Verenich:</b></font> ок, значит надо подключать WDO<br/>
+<font color="#16569E"><font size="2">(15:23:39)</font> <b>Roman Verenich:</b></font> а в рамках какого таска это происходит?<br/>
+<font color="#A82F2F"><font size="2">(15:26:22)</font> <b>Mstislav Bobakov:</b></font> таска пока нет, сейчас только определились что делать надо.  Вообщем питерским ребятам нужно снять обучающее видео к орблям и для этого им нужны аккаунты прокаченные <br/>
+<font color="#16569E"><font size="2">(15:27:32)</font> <b>Roman Verenich:</b></font> тогда может даже лучше, чтоб они таски сразу на WDO ставили<br/>
+<font color="#16569E"><font size="2">(15:27:46)</font> <b>Roman Verenich:</b></font> только я не знаю точно, кто там за БЯ отвечает<br/>
+<font color="#A82F2F"><font size="2">(15:27:46)</font> <b>Mstislav Bobakov:</b></font> я так и хочу<br/>
+<font color="#A82F2F"><font size="2">(15:28:18)</font> <b>Mstislav Bobakov:</b></font> там же autoasighn, думаю разберутся<br/>
+<font color="#16569E"><font size="2">(15:29:21)</font> <b>Roman Verenich:</b></font> да, конечно<br/>
+</body></html>

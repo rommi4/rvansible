@@ -32,3 +32,7 @@
 
 - name: put terminator config
   copy: src=terminator_config dest=/home/{{ ansible_env.USER }}/.config/terminator/config
+
+- name: avoid mint-fortune error
+  shell: sed -i '/\/usr\/bin\/mint-fortune/d' /etc/bash.bashrc
+  sudo: yes

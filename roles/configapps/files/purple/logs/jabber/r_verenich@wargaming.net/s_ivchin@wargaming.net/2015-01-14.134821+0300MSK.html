@@ -1,0 +1,33 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Conversation with s_ivchin@wargaming.net at Wed 14 Jan 2015 01:48:21 PM MSK on r_verenich@wargaming.net/ (jabber)</title></head><body><h3>Conversation with s_ivchin@wargaming.net at Wed 14 Jan 2015 01:48:21 PM MSK on r_verenich@wargaming.net/ (jabber)</h3>
+<font color="#A82F2F"><font size="2">(01:48:21 PM)</font> <b>Stanislav Ivchin:</b></font> Рома, а кластер ты который делал для кораблей, он рабоет?<br/>
+<font color="#A82F2F"><font size="2">(01:48:27 PM)</font> <b>Stanislav Ivchin:</b></font> запускал ты его?<br/>
+<font color="#16569E"><font size="2">(01:49:01 PM)</font> <b>Roman Verenich:</b></font> вроде работал<br/>неделю назад наверное запускал, даже болье<br/>
+<font color="#16569E"><font size="2">(01:49:07 PM)</font> <b>Roman Verenich:</b></font> а что с ним?<br/>
+<font color="#16569E"><font size="2">(01:50:05 PM)</font> <b>Roman Verenich:</b></font> <a href="mailto:wowsloadtest@dt-sl-a65">wowsloadtest@dt-sl-a65</a><br/>
+<font color="#A82F2F"><font size="2">(01:50:06 PM)</font> <b>Stanislav Ivchin:</b></font> cluster-update нормально работал, у меня что-то не пашет ((( вот хочу понять когда и что поломалось<br/>
+<font color="#16569E"><font size="2">(01:50:22 PM)</font> <b>Roman Verenich:</b></font> хм, если про этот, то что-то он не работает<br/>
+<font color="#A82F2F"><font size="2">(01:50:26 PM)</font> <b>Stanislav Ivchin:</b></font> папет видимо ) <br/>
+<font color="#A82F2F"><font size="2">(02:10:15 PM)</font> <b>Stanislav Ivchin:</b></font> Рома ) а где в СВН конфиг wowsloadtest ? там cluster_profile.cfg пустой на хосте, попробовал обновить и не нашло такого каталога в СВН, посмотри плиз <br/>
+<font color="#16569E"><font size="2">(02:11:20 PM)</font> <b>Roman Verenich:</b></font> deployment/cfg/test/wows/wowsloadtest<br/>
+<font color="#16569E"><font size="2">(02:11:24 PM)</font> <b>Roman Verenich:</b></font> кажись там<br/>
+<font color="#A82F2F"><font size="2">(02:12:19 PM)</font> <b>Stanislav Ivchin:</b></font> няма такого <br/>
+<font color="#16569E"><font size="2">(02:13:58 PM)</font> <b>Roman Verenich:</b></font> хм, а куда он ушел тогда<br/>
+<font color="#A82F2F"><font size="2">(02:14:33 PM)</font> <b>Stanislav Ivchin:</b></font> вот хз<br/>
+<font color="#16569E"><font size="2">(02:15:20 PM)</font> <b>Roman Verenich:</b></font> о, Мстислав есть?<br/>
+<font color="#A82F2F"><font size="2">(02:15:33 PM)</font> <b>Stanislav Ivchin:</b></font> ))) да<br/>
+<font color="#A82F2F"><font size="2">(02:15:49 PM)</font> <b>Stanislav Ivchin:</b></font> давай перенесем в prod этот кластер<br/>
+<font color="#A82F2F"><font size="2">(02:15:59 PM)</font> <b>Stanislav Ivchin:</b></font> в реалм CT <br/>
+<font color="#A82F2F"><font size="2">(02:16:03 PM)</font> <b>Stanislav Ivchin:</b></font> или ST<br/>
+<font color="#16569E"><font size="2">(02:16:08 PM)</font> <b>Roman Verenich:</b></font> да, наверное так будет лучше<br/>
+<font color="#A82F2F"><font size="2">(02:18:17 PM)</font> <b>Stanislav Ivchin:</b></font> перенесешь?<br/>
+<font color="#16569E"><font size="2">(02:19:09 PM)</font> <b>Roman Verenich:</b></font> CT или ST ?<br/>
+<font color="#16569E"><font size="2">(02:19:20 PM)</font> <b>Roman Verenich:</b></font> ST<br/>
+<font color="#A82F2F"><font size="2">(02:20:18 PM)</font> <b>Stanislav Ivchin:</b></font> как хочешь )<br/>
+<font color="#A82F2F"><font size="2">(02:20:28 PM)</font> <b>Stanislav Ivchin:</b></font> ST логичней<br/>
+<font color="#16569E"><font size="2">(03:35:41 PM)</font> <b>Roman Verenich:</b></font> так, там wowsloadtest запустился?<br/>
+<font color="#A82F2F"><font size="2">(03:38:29 PM)</font> <b>Stanislav Ivchin:</b></font> да<br/>
+<font color="#16569E"><font size="2">(03:51:37 PM)</font> <b>Roman Verenich:</b></font> {<br/>  &quot;bigworld::tools::stat_logger_carbon_enable&quot;: true,<br/>  &quot;bigworld::tools::stat_logger::config_profile&quot;: [&quot;NoLoginRate&quot;],<br/>  &quot;bigworld::cluster::control::web_console_access_list&quot;: [&quot;by1_fe_ip&quot;, &quot;spb_fe_ip&quot;],<br/>  &quot;resources&quot;: {<br/>    &quot;wg::users::add_user&quot;: {<br/>      &quot;dwhbot&quot;: {<br/>        &quot;key_set&quot;: &quot;bot-eu-dwh-1&quot;,<br/>        &quot;desired_groups&quot;: [&quot;bwtools&quot;]<br/>      }<br/>    }<br/>  },<br/>  &quot;cluster::multiuser_monitoring&quot;: true,<br/>  &quot;cluster::user&quot;: [<br/>    &quot;wowseu&quot;<br/>  ],<br/>  &quot;bigworld::tools::stat_logger::config_profile&quot;: [&quot;noaccountrate&quot;],<br/>  &quot;bigworld::tools::bigworld_version&quot;: &quot;2.2&quot;<br/>}<br/><br/>это возвращаясь к внешним IP для web-консоли (вывод выше для wowseu)<br/>на wowsloadtest значит надо добавить<br/>&quot;bigworld::cluster::control::web_console_access_list&quot;: [&quot;by1_fe_ip&quot;, &quot;spb_fe_ip&quot;],<br/><br/><br/>что еще нужно? потому что сейчас на bwc wowsloadtest только юзер описан <br/>
+<font color="#A82F2F"><font size="2">(03:52:39 PM)</font> <b>Stanislav Ivchin:</b></font> а еще бы узнать пароль для web console )<br/>
+<font color="#A82F2F"><font size="2">(03:52:52 PM)</font> <b>Stanislav Ivchin:</b></font> больше вроде ничего<br/>
+<font color="#16569E"><font size="2">(03:39:08 PM)</font> <b>Roman Verenich:</b></font> <a href="https://confluence.wargaming.net/pages/viewpage.action?pageId=189417107">https://confluence.wargaming.net/pages/viewpage.action?pageId=189417107</a><br/>
+</body></html>

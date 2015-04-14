@@ -1,15 +1,25 @@
 ---
 # vars file for install_apps
 list_of_packages_to_install:
+  # terminal emulator and editors
   - terminator
+  - mc
   - vim
   - sublime-text
   - ctags
+  # Version control
   - git
   - tig
   - gitk
   - subversion
+  # Programming & Testing Tools
   - vagrant
   - ruby
+  - ipython
+  - ipython3
+  # Communication tools
+  - skype
+  - wync
+  - pidgin
 list_of_packages_to_uninstall:
   - cowsay
