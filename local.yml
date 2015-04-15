@@ -4,5 +4,5 @@
   gather_facts: yes
   roles: 
     - { role: chrome, tags: chrome }  
-    - { role: install_apps, tags: install_packages_from_official_repo }
+    - { role: install_apps, tags: installapps }
     - { role: vimconfig, tags: vim }

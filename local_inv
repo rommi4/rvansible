@@ -1,3 +1,5 @@
 [locals]
-localhost 	ansible_connection=local
+#localhost 	ansible_connection=local
 #rm4-home 	  ansible_ssh_host=192.168.0.109		ansible_connection=ssh		ansible_ssh_user=rm4
+#rm4-VirtualBox ansible_connection=ssh ansible_ssh_user=rm4 ansible_ssh_pass=rom ansible_sudo_pass=rom
+rm4mint-virt ansible_connection=ssh ansible_ssh_user=rm4mint ansible_ssh_pass=romanbl4 ansible_sudo_pass=romanbl4

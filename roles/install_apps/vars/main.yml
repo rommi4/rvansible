@@ -17,8 +17,20 @@ list_of_packages_to_install:
   - ruby
   - ipython
   - ipython3
+  - python-jinja2
+  - python-yaml
+  - sshpass
+  - python-jinja2-doc
   # Communication tools
   - skype
   - pidgin
+  # Some usefull stuff
+  - software-properties-common
+  # Ansible
+  - ansible
+
 list_of_packages_to_uninstall:
   - cowsay
+
+list_of_repositories_to_add:
+  - "deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main"
