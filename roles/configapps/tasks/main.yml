@@ -1,0 +1,11 @@
+---
+- name: put .bash_aliases
+  copy: src=.bash_aliases dest=/home/{{ ansible_env.USER }}/.bash_aliases
+  copy: src=.bashrc dest=/home/{{ ansible_env.USER }}/.bashrc
+
+# configure mc
+- name: create mc directories
+  file: path=/home/{{ ansible_env.USER }}/./skins state=directory
+
+- name: put necessary config for mc
+  copy: src=solarized.ini dest=/home/{{ ansible_env.USER }}/.config/mc/solarized.ini
