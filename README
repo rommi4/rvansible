@@ -4,5 +4,8 @@ TODO
 
 2. svn checkout
 3. git clone
+!!! git config
 
 4. ssh key (private)
+
+think about other configurations
