@@ -21,18 +21,13 @@
     - bundle.sh
 
 - name: install bundles
-  shell: /home/{{ ansible_env.USER }}/.vim/{{ item }} chdir=/home/{{ ansible_env.USER }}/.vim/
-  with_items:
-    - update_bundles.rb
-    - bundle.sh
+  shell: /home/{{ ansible_env.USER }}/.vim/update_bundles.rb chdir=/home/{{ ansible_env.USER }}/.vim/
+
+- name: hack for bundles
+  shell: /home/{{ ansible_env.USER }}/.vim/bundle.sh chdir=/home/{{ ansible_env.USER }}/.vim/
 
 - name: put .vimrc configs
   copy: src=vimrc dest=/home/{{ ansible_env.USER }}/.vimrc 
-  copy: src=terminator_config dest=/home/{{ ansible_env.USER }}/.config/terminator/config
 
-- name: put terminator config
+- name: put terminator configs 
   copy: src=terminator_config dest=/home/{{ ansible_env.USER }}/.config/terminator/config
-
-- name: avoid mint-fortune error
-  shell: sed -i '/\/usr\/bin\/mint-fortune/d' /etc/bash.bashrc
-  sudo: yes
