@@ -1,0 +1,37 @@
+---
+# vars file for install_apps
+list_of_packages_to_install:
+  # terminal emulator and editors
+  - terminator
+  - mc
+  - vim
+  - sublime-text
+  - ctags
+  # Version control
+  - git
+  - tig
+  - gitk
+  - subversion
+  # Programming & Testing Tools
+  - virtualbox-4.3
+  - vagrant
+  - ruby
+  - ipython
+  - ipython3
+  - python-jinja2
+  - python-yaml
+  - sshpass
+  - python-jinja2-doc
+  # Communication tools
+  - skype
+  - pidgin
+  # Some usefull stuff
+  - software-properties-common
+  # Ansible
+  - ansible
+
+list_of_packages_to_uninstall:
+  - cowsay
+
+list_of_repositories_to_add:
+  - "deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main"

@@ -3,7 +3,9 @@
   hosts: locals
   gather_facts: yes
   roles: 
-    - { role: chrome, tags: chrome }  
-    - { role: install_apps, tags: installapps }
+#    - { role: chrome, tags: chrome }  
+    - { role: install_apps_apt, tags: installapps, when: ansible_pkg_mgr == "apt" }
+    - { role: install_apps_yum, tags: installapps, when: ansible_pkg_mgr == "yum" }
     - { role: vimconfig, tags: vim }
     - { role: configapps, tags: configapps }
+    - { role: vcsrepos, tags: vcsrepos }

@@ -1,0 +1,3 @@
+---
+- name: "subversion repo"
+  subversion: repo=https://svn.wargaming.net/svn/deployment/ dest=/home/{{ ansible_env.USER }}/PycharmProjects/deployment/

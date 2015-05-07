@@ -1,0 +1,22 @@
+---
+
+- name: add repositories
+  get_url: url={{ item }} dest=/etc/yum.repos.d/
+  with_items: "{{ list_of_repositories }}"
+  sudo: yes
+
+   
+- name: Upgrade dist
+  yum: name=* state=latest update_cache=yes
+  sudo: yes
+
+- name: Install packages
+  yum: name={{ list_of_packages_to_install | join(",") }} state=latest
+  sudo: yes
+
+- name: Uninstall packages
+  yum: name={{ list_of_packages_to_uninstall | join(",") }} state=absent
+  sudo: yes
+
+- name: Install Pycharm
+  file: path=/home/{{ ansible_env.USER }}/PycharmProjects state=directory

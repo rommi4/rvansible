@@ -5,7 +5,7 @@ list_of_packages_to_install:
   - terminator
   - mc
   - vim
-  - sublime-text
+    #  - sublime-text # sublime-text not in any repository in fedora
   - ctags
   # Version control
   - git
@@ -13,24 +13,26 @@ list_of_packages_to_install:
   - gitk
   - subversion
   # Programming & Testing Tools
+  - virtualbox-4.3
   - vagrant
   - ruby
   - ipython
-  - ipython3
+    #  - ipython3
   - python-jinja2
   - python-yaml
   - sshpass
-  - python-jinja2-doc
+    #  - python-jinja2-doc
   # Communication tools
-  - skype
+  #  - skype
   - pidgin
   # Some usefull stuff
-  - software-properties-common
+  #  - software-properties-common
+  - dropbox
   # Ansible
   - ansible
 
 list_of_packages_to_uninstall:
   - cowsay
 
-list_of_repositories_to_add:
-  - "deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main"
+list_of_repositories:
+  - http://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo
