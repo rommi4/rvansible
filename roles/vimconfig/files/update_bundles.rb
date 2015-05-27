@@ -3,13 +3,11 @@
 git_bundles = [ 
   "git://github.com/ervandew/supertab.git",
   "git://github.com/godlygeek/tabular.git",
-  "git://github.com/msanders/snipmate.vim.git",
   "git://github.com/tpope/vim-fugitive.git",
   "git://github.com/tpope/vim-git.git",
   "git://github.com/motemen/git-vim.git",
   "git://github.com/tpope/vim-surround.git",
-  "git://github.com/vim-scripts/mru.vim.git",
-  "git://github.com/vim-scripts/bufexplorer.zip.git",
+  "git://github.com/chase/vim-ansible-yaml.git",
   "https://github.com/tpope/vim-sensible",
   "https://github.com/c9s/filetype-completion.vim.git",
   "https://github.com/scrooloose/syntastic.git",
@@ -27,7 +25,6 @@ git_bundles = [
   # ---- Snippets support ----
   #"https://github.com/garbas/vim-snipmate.git",
   "https://github.com/MarcWeber/vim-addon-mw-utils.git",
-  "https://github.com/tomtom/tlib_vim.git",
   #"https://github.com/honza/vim-snippets.git",
   # ---- Languages support ----
   # -------- Python --------
@@ -37,8 +34,6 @@ git_bundles = [
   "https://github.com/mitsuhiko/vim-python-combined.git",
   # -------- Bash --------
   "https://github.com/vim-scripts/bash-support.vim.git",
-  # -------- Perl --------
-  "https://github.com/vim-scripts/perl-support.vim.git",
   # -------- Puppet -------- 
   "git://github.com/rodjek/vim-puppet.git",
 ]

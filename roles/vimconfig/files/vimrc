@@ -54,10 +54,6 @@ let NERDTreeIgnore=['\~$', '\.pyc$', '\.pyo$', '\.class$', 'pip-log\.txt$', '\.o
 " TaskList settings
 map <F2> :TaskList<CR>
 
-" Work with buffers
-map <C-q> :bd<CR>       " CTRL+Q - close current bu
-
-
 "common stuff
 set showmatch  " briefly jumt to the matching bracket
 set matchtime=2 "tenths of a second to show the matching paren when 'showmatch' is set
@@ -164,11 +160,6 @@ nmap <silent> <leader>mw :call MarkWindowSwap()<CR>
 nmap <silent> <leader>pw :call DoWindowSwap()<CR>
 
 
-
-" Python files header
-au BufNewFile *.py 0r /home/rvx1/.vim/python.header.template
-
-
 " ==========================
 " Python-mode settings
 " ==========================
@@ -212,6 +203,11 @@ let g:pymode_run = 0
 
 " Disable choose first function/method at autocomplete
 let g:jedi#popup_select_first = 0
+
+" =============
+" ANSIBLE & YML
+" =============
+autocmd BufNewFile,BufRead *.yml set filetype=ansible
 
 
 " ============

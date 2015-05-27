@@ -13,14 +13,16 @@ list_of_packages_to_install:
   - gitk
   - subversion
   # Programming & Testing Tools
-  - virtualbox-4.3
+  - VirtualBox-4.3
   - vagrant
   - ruby
   - ipython
     #  - ipython3
   - python-jinja2
   - python-yaml
+  - python-devel
   - sshpass
+  - gcc
     #  - python-jinja2-doc
   # Communication tools
   #  - skype
