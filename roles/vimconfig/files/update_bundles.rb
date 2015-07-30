@@ -1,27 +1,31 @@
 #!/usr/bin/env ruby
 
 git_bundles = [ 
+  # ---- Some vim stuff ----
+  "https://github.com/xolox/vim-misc.git",
   "git://github.com/ervandew/supertab.git",
   "git://github.com/godlygeek/tabular.git",
-  "git://github.com/tpope/vim-fugitive.git",
-  "git://github.com/tpope/vim-git.git",
-  "git://github.com/motemen/git-vim.git",
-  "git://github.com/tpope/vim-surround.git",
-  "git://github.com/chase/vim-ansible-yaml.git",
+  "https://github.com/airblade/vim-gitgutter.git",
+  #"git://github.com/tpope/vim-fugitive.git",
+  #"git://github.com/tpope/vim-git.git",
+  #"git://github.com/motemen/git-vim.git",
+  "git://github.com/tpope/vim-surround.git", # press cs"' to change surround from " to '
   "https://github.com/tpope/vim-sensible",
+  "git://github.com/chase/vim-ansible-yaml.git",
   "https://github.com/c9s/filetype-completion.vim.git",
   "https://github.com/scrooloose/syntastic.git",
   "git://github.com/altercation/vim-colors-solarized.git",
   "https://github.com/vim-scripts/taglist.vim.git",
   "https://github.com/editorconfig/editorconfig-vim.git",
+  "https://github.com/Raimondi/delimitMate.git",
   # ---- Code/project navigation ----
   "https://github.com/scrooloose/nerdtree.git",
   "https://github.com/majutsushi/tagbar.git",
+  # "https://github.com/xolox/vim-easytags.git",
   # ---- Other ----
-  #"https://github.com/bling/vim-airline.git",
+  "https://github.com/bling/vim-airline.git",
   "https://github.com/fisadev/FixedTaskList.vim.git",
-  "https://github.com/rosenfeld/conque-term.git",
-  "https://github.com/tpope/vim-surround.git",
+  # "https://github.com/rosenfeld/conque-term.git",
   # ---- Snippets support ----
   #"https://github.com/garbas/vim-snipmate.git",
   "https://github.com/MarcWeber/vim-addon-mw-utils.git",

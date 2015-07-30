@@ -2,22 +2,12 @@ TODO
 !!!!! vim configuration changed greatly since last time
 
 1. Pycharm
+    Downdload and install pycharm
 
+(set environment)
 2. svn checkout
 3. git clone
 !!! git config
-
 4. ssh key (private)
 
-think about other configurations
-
-5. Change logic for fedora distribution:
-  5.1 Add repository
-  for example this way:
-    cd /etc/yum.repos.d/
-   
-    ## Fedora 21/20/19/18/17/16/15/14/13/12 users
-    wget http://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo
-
-    Check how to install Virtualbox for example
-    http://www.if-not-true-then-false.com/2010/install-virtualbox-with-yum-on-fedora-centos-red-hat-rhel/
+5. cinnamon configurations ()

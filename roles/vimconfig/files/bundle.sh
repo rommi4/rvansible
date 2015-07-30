@@ -19,6 +19,8 @@
 
 set -o nounset                              # Treat unset variables as an error
 
+rm -rf ~/.vim/bundle_available/*
+
 for i in $(ls ~/.vim/bundle);
 do
   mv ~/.vim/bundle/$i ~/.vim/bundle_available 
