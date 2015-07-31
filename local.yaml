@@ -1,0 +1,20 @@
+---
+- name: Prepare
+  hosts: locals
+  gather_facts: yes
+  roles:
+    # simple put files, create directories, prepare for configuration
+    - { role: preconfiguration, tags: pre }
+
+    # Distro-specific part of configuration 
+    - { role: deb_configuration, tags: deb_config, when: ansible_pkg_mgr == "apt" }
+    - { role: rmp_configuration, tags: rpm_config, when: ansible_pkg_mgr == "dnf" }
+
+    # Post-configuration tasks
+    - { role: postconfiguration, tags: post}
+#    - { role: chrome, tags: chrome } # chrome is ready to install via dnf in Korora
+#    - { role: install_apps_apt, tags: installapps, when: ansible_pkg_mgr == "apt" }
+#    - { role: install_apps_yum, tags: installapps, when: ansible_pkg_mgr == "yum" }
+#    - { role: vimconfig, tags: vim }
+#    - { role: configapps, tags: configapps }
+#    - { role: vcsrepos, tags: vcsrepos }

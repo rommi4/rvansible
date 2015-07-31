@@ -13,7 +13,7 @@ let no_buffers_menu=1
 
 set ruler " show the line and column number of the cursor position, separated by comma
 set completeopt-=preview " A comma separated list of options for Insert mode completion
-set guicursor=a:blinkon0 
+set guicursor=a:blinkon0
 set ttyfast
 
 
@@ -28,6 +28,23 @@ syntax on
 filetype plugin indent on
 tab sball
 set switchbuf=useopen
+let g:syntastic_error_symbol = '✘'
+let g:syntastic_warning_symbol = '▲'
+augroup mySyntastic
+  au!
+  au FileType tex let b:syntastic_mode = "passive"
+augroup END
+
+
+" easytags
+set tags=./tags;,~/.vimtags
+" Sensible defaults
+let g:easytags_events = ['BufReadPost', 'BufWritePost']
+let g:easytags_async = 1
+let g:easytags_dynamic_files = 2
+let g:easytags_resolve_links = 1
+let g:easytags_suppress_ctags_warning = 1
+
 
 "disable beeper and blinking
 set visualbell t_vb=
@@ -38,14 +55,26 @@ set enc=utf-8   "utf-8 by default
 
 " Vim-Airline settings
 set laststatus=2 "always show statusbar
-let g:airline_theme='badwolf'
-let g:airline_powerline_fonts=1
+" let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#tabline#formatter='unique_tail'
+let g:airline_detect_paste = 1
+" let g:airline_theme='badwolf'
+" let g:airline_theme='solarized'
+" let g:airline_solarized_bg='dark'
+let g:airline_theme='base16'
+" let g:airline_left_sep='►'
+" let g:airline_left_alt_sep='|'
+" let g:airline_right_sep='◄'
+" let g:airline_right_alt_sep='|'
+" let g:airline_linecolumn_prefix = '¶ '
+" let g:airline_fugitive_prefix = '⎇ '
+" let g:airline_paste_symbol = 'ρ'
+
 
 " TagBar settings
 map <F4> :TagbarToggle<CR>
-let g:tagbar_autofocus=0 
+let g:tagbar_autofocus=0
 
 " NerdTree settings
 map <F3> :NERDTreeToggle<CR>
@@ -57,18 +86,18 @@ map <F2> :TaskList<CR>
 "common stuff
 set showmatch  " briefly jumt to the matching bracket
 set matchtime=2 "tenths of a second to show the matching paren when 'showmatch' is set
-set nocompatible 
+set nocompatible
 set hidden
 set number " print the line number in front of each line
 set magic  " Changes the special characters that can be used in search patterns
-" set confirm " 
-set showcmd " Show (partial) command in the last line of the screen. 
-set title  
+" set confirm "
+set showcmd " Show (partial) command in the last line of the screen
+set title
 set nobackup          " no backup files
 set autochdir " Vim will change the current working directory whenever you open a file
 set wrap  " lines longer than the width of the window will wrap and displaying continues on the next line
-set nolinebreak 
-set textwidth=0 
+set nolinebreak
+set textwidth=0
 set wrapmargin=0
 set formatoptions+=l
 set cmdheight=2
@@ -77,7 +106,7 @@ set noshowmode
 "swap files
 set noswapfile        " no swap files
 
-"set mouse=a
+set mouse=a
 
 "case
 set ignorecase
@@ -214,6 +243,8 @@ autocmd BufNewFile,BufRead *.yml set filetype=ansible
 " User hotkeys
 " ============
 
+" CTRL-SHIFT-C is for Copy
+vnoremap <C-S-c> "+y
 
 " run interpreter by F5
 nnoremap <F5> :ConqueTermSplit ipython<CR>
@@ -232,13 +263,6 @@ autocmd FileType python setlocal completeopt-=preview
 " Autocomplecte via <Ctrl+Space>
 inoremap <C-space> <C-x><C-o>
 
-
-" vim-airline symbols
-" let g:airline_theme='dark'
-let g:airline_left_sep='►'
-let g:airline_left_alt_sep='|'
-let g:airline_right_sep='◄'
-let g:airline_right_alt_sep='|'
-let g:airline_linecolumn_prefix = '¶ '
-let g:airline_fugitive_prefix = '⎇ '
-let g:airline_paste_symbol = 'ρ'
+" -- airblade/vim-gitgutter settings --
+hi clear SignColumn
+let g:airline#extensions#hunks#non_zero_only = 1

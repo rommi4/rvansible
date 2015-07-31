@@ -1,2 +1,6 @@
 ---
-- name: put wgconfig
+- name: put private key
+  copy: src=id_rsa dest=/home/{{ ansible_env.USER }}/.ssh owner={{ ansible_env.USER }} ggroup={{ ansible_env.USER }} mode=0644
+
+- name: run ssh-add
+

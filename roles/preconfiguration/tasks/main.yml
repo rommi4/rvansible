@@ -1,0 +1,51 @@
+---
+
+- name: put config files
+  copy: src=bash_aliases dest=/home/{{ ansible_env.USER }}/.bash_aliases
+
+- name: put .bashrc config
+  copy: src=bashrc dest=/home/{{ ansible_env.USER }}/.bashrc
+
+- name: put .gitconfig
+  copy: src=gitconfig dest=/home/{{ ansible_env.USER }}/.gitconfig
+
+- name: put WG CA (for wifi access)
+  copy: src="Wargaming Root CA.cer" dest=/home/{{ ansible_env.USER }}/WargamingCA.cer
+
+- name: put private key
+  copy: src=id_rsa dest=/home/{{ ansible_env.USER }}/.ssh owner={{ ansible_env.USER }} ggroup={{ ansible_env.USER }} mode=0644
+
+# VIM CONFIGURATION [START]
+- name: create dir for pathogen and vim bundles
+  file: path=/home/{{ ansible_env.USER }}/.vim/{{ item }} state=directory
+  with_items:
+    - autoload
+    - bundle
+    - bundle_available
+
+- name: create terminator config dir
+  file: path=/home/{{ ansible_env.USER }}/.config/terminator state=directory
+
+- name: install pathogen
+  shell: curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+  ignore_errors: yes
+  register: pathogen_result
+
+- name: put update_bundles.rb file
+  copy: src={{ item }} dest=/home/{{ ansible_env.USER }}/.vim owner={{ ansible_env.USER }} group={{ ansible_env.USER }} mode=0755
+  with_items:
+    - update_bundles.rb
+    - bundle.sh
+
+- name: install bundles
+  shell: /home/{{ ansible_env.USER }}/.vim/update_bundles.rb chdir=/home/{{ ansible_env.USER }}/.vim/
+
+- name: hack for bundles
+  shell: /home/{{ ansible_env.USER }}/.vim/bundle.sh chdir=/home/{{ ansible_env.USER }}/.vim/
+
+- name: put .vimrc configs
+  copy: src=vimrc dest=/home/{{ ansible_env.USER }}/.vimrc 
+
+- name: put terminator configs 
+  copy: src=terminator_config dest=/home/{{ ansible_env.USER }}/.config/terminator/config
+# VIM CONFIGURATION [STOP]

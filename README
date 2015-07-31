@@ -1,11 +1,16 @@
 TODO
-!!!!! vim configuration changed greatly since last time
+
+First of all divide configuration into three steps:
+1. pre-configuration role (put necessary files: private ssh key, vim configuration, terminator configurations and etc)
+2. Download and install necessary packages, configure them
+3. Post-installation - prepare wg environment: puppet-dev, hiera-backend, stash
+(!!!) and what I want to admit: there might be change in structure.
+(No PycharmProject directory, as I'll use Atom instead)
 
 0. (!!!) VPN 
 
 1. Pycharm
     Downdload and install pycharm
-
 
 (set environment)
 2. svn checkout

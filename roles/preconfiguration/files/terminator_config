@@ -1,0 +1,48 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  focus = system
+  suppress_multiple_term_dialog = True
+[keybindings]
+[profiles]
+  [[default]]
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#8ae234:#fce94f:#839496:#6c71c4:#34e2e2:#fdf6e3"
+    background_image = None
+    use_system_font = False
+    foreground_color = "#eee8d5"
+    font = Liberation Mono 12
+    background_color = "#002b36"
+    scrollback_infinite = True
+  [[solarized-dark]]
+    use_system_font = False
+    background_image = None
+    foreground_color = "#839496"
+    font = Liberation Mono 14
+    background_color = "#002b36"
+    scrollback_infinite = True
+  [[111]]
+    background_image = None
+  [[default_12]]
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#8ae234:#fce94f:#839496:#6c71c4:#34e2e2:#fdf6e3"
+    background_image = None
+    use_system_font = False
+    foreground_color = "#eee8d5"
+    font = Liberation Mono 14
+    background_color = "#002b36"
+    scrollback_infinite = True
+  [[solarized-light]]
+    use_system_font = False
+    background_image = None
+    cursor_color = "#002b36"
+    foreground_color = "#eee8d5"
+    font = Liberation Mono 14
+    background_color = "#002b36"
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
