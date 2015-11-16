@@ -1,8 +1,0 @@
-alias gitsvnrv='pushd ~/PycharmProjects/puppet-dev/ && git checkout master && git fetch && git pull && git submodule update --init && git status && git br && popd && pushd ~/PycharmProjects/deployment/ && svn up && popd'
-alias rvupd='sudo apt-get update; sudo apt-get upgrade -y'
-alias mc='mc -S dark'
-alias vpnby1connect='/opt/cisco/anyconnect/bin/vpn connect by1-vpn.wargaming.net'
-alias vpndisconnect='/opt/cisco/anyconnect/bin/vpn disconnect'
-alias vpnstatus='/opt/cisco/anyconnect/bin/vpn status'
-alias dnfup='sudo dnf clean metadata && sudo dnf upgrade'
-alias vim='gvim -v'

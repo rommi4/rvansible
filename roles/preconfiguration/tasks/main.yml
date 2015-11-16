@@ -1,6 +1,6 @@
 ---
 
-- name: put config files
+- name: put .bash_aliases file
   copy: src=bash_aliases dest=/home/{{ ansible_env.USER }}/.bash_aliases
 
 - name: put .bashrc config
@@ -9,13 +9,19 @@
 - name: put .gitconfig
   copy: src=gitconfig dest=/home/{{ ansible_env.USER }}/.gitconfig
 
-- name: put WG CA (for wifi access)
-  copy: src="Wargaming Root CA.cer" dest=/home/{{ ansible_env.USER }}/WargamingCA.cer
+# certs for wg_office access
+- name: bin directory at home
+  file: path=/home/{{ ansible_env.USER }}/bin state=directory
+
+- name: Certs for wg-office Wi-Fi
+  copy: src={{ item }} dest=/home/{{ ansible_env.USER }}/bin/wifi_certs/
+  with_fileglob:
+    - /wifi_certs/*
 
 - name: put private key
-  copy: src=id_rsa dest=/home/{{ ansible_env.USER }}/.ssh owner={{ ansible_env.USER }} ggroup={{ ansible_env.USER }} mode=0644
+  copy: src=id_rsa dest=/home/{{ ansible_env.USER }}/.ssh owner={{ ansible_env.USER }} group={{ ansible_env.USER }} mode=0644
 
-# VIM CONFIGURATION [START]
+### VIM CONFIGURATION [START]
 - name: create dir for pathogen and vim bundles
   file: path=/home/{{ ansible_env.USER }}/.vim/{{ item }} state=directory
   with_items:
@@ -44,8 +50,8 @@
   shell: /home/{{ ansible_env.USER }}/.vim/bundle.sh chdir=/home/{{ ansible_env.USER }}/.vim/
 
 - name: put .vimrc configs
-  copy: src=vimrc dest=/home/{{ ansible_env.USER }}/.vimrc 
+  copy: src=vimrc dest=/home/{{ ansible_env.USER }}/.vimrc
 
-- name: put terminator configs 
+- name: put terminator configs
   copy: src=terminator_config dest=/home/{{ ansible_env.USER }}/.config/terminator/config
-# VIM CONFIGURATION [STOP]
+### VIM CONFIGURATION [STOP]

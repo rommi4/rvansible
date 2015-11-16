@@ -3,9 +3,10 @@
 list_of_packages_to_install:
   # terminal emulator and editors
   - terminator
+  - terminus-fonts
   - mc
   - vim
-    #  - sublime-text # sublime-text not in any repository in fedora
+  #  - sublime-text # sublime-text not in any repository in fedora
   - ctags
   # Version control
   - git
@@ -17,13 +18,14 @@ list_of_packages_to_install:
   - vagrant
   - ruby
   - ipython
-    #  - ipython3
+  # -  ipython3
   - python-jinja2
   - python-yaml
   - python-devel
+  - python-ipdb
   - sshpass
   - gcc
-    #  - python-jinja2-doc
+  #  - python-jinja2-doc
   # Communication tools
   #  - skype
   - pidgin
